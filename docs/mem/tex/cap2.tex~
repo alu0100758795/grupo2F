@@ -4,19 +4,16 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-%En este capítulo se han de presentar los antecedentes teóricos y prácticos que
-%apoyan el tema objeto de la investigación.
+En este capítulo se han de presentar los antecedentes teóricos y prácticos que
+apoyan el tema objeto de la investigación.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{Método de los trapecios}
+\section{Primer apartado del segundo capítulo}
 \label{2:sec:1}
   Primer párrafo de la primera sección.
 
-\section{Convergencia del método de los trapecios}
+\section{Segundo apartado del segundo capítulo}
 \label{2:sec:2}
   Primer párrafo de la segunda sección.
 
-\section{Realización por el metodo de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
-\label{3:sec:3}
-$f(x)=sen(\Pi x)$, $x \in [-2,-1]$
