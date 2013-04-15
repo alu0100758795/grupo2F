@@ -29,18 +29,18 @@ bla, bla, etc.
 
 
 %------------------------------------------------------------------------------
-%\begin{figure}[!th]
-%\begin{center}
-%\includegraphics[width=0.75\textwidth]{images/figura1.eps}
-%\caption{Ejemplo de figura}
-%\label{fig:1}
-%\end{center}
-%\end{figure}
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{images/figura1.eps}
+\caption{Ejemplo de figura}
+\label{fig:1}
+\end{center}
+\end{figure}
 %------------------------------------------------------------------------------
 
 
 %------------------------------------------------------------------------------
-%\input{tables/table.tex}
+\input{tables/table.tex}
 %------------------------------------------------------------------------------
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

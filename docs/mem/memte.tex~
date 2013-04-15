@@ -18,20 +18,20 @@
 \newcommand{\INTEL}{\textsf{\textsc{I}ntel}}
 
 %%% Traducimos el pseudocodigo
-\renewcommand{\algorithmicwhile}{\textbf{mientras}}
-\renewcommand{\algorithmicend}{\textbf{fin}}
-\renewcommand{\algorithmicdo}{\textbf{hacer}}
-\renewcommand{\algorithmicif}{\textbf{si}}
-\renewcommand{\algorithmicthen}{\textbf{entonces}}
-\renewcommand{\algorithmicrepeat}{\textbf{repetir}}
-\renewcommand{\algorithmicuntil}{\textbf{hasta que}}
-\renewcommand{\algorithmicelse}{\textbf{en otro caso}}
-\renewcommand{\algorithmicfor}{\textbf{para}}
+%\renewcommand{\algorithmicwhile}{\textbf{mientras}}
+%\renewcommand{\algorithmicend}{\textbf{fin}}
+%\renewcommand{\algorithmicdo}{\textbf{hacer}}
+%\renewcommand{\algorithmicif}{\textbf{si}}
+%\renewcommand{\algorithmicthen}{\textbf{entonces}}
+%\renewcommand{\algorithmicrepeat}{\textbf{repetir}}
+%\renewcommand{\algorithmicuntil}{\textbf{hasta que}}
+%\renewcommand{\algorithmicelse}{\textbf{en otro caso}}
+%\renewcommand{\algorithmicfor}{\textbf{para}}
 
 %\newcommand{\RETURN}{\textbf{retornar} }
 \newcommand{\RET}{\STATE \textbf{retornar} }
 \newcommand{\TO}{\textbf{hasta} }
-\newcommand{\AND}{\textbf{y} }
+%\newcommand{\AND}{\textbf{y} }
 \newcommand{\OR}{\textbf{o} }
 
 %%%%%%%%%%%%%%%%% Creamos un entorno para listar código fuente %%%%%%%%%%%%%%%
@@ -100,7 +100,7 @@
 \vspace*{\stretch{1}}
 
 \begin{center}
-\includegraphics[width=0.2\textwidth]{images/logotipo-secundario-ULL}\\[0.25cm]
+\includegraphics[width=0.2\textwidth]{./img/logotipo-secundario-ULL}\\[0.25cm]
 \end{center}
 
 \HRule
@@ -108,7 +108,7 @@
         {\Huge Integración Trapecio} \\[2.5mm] 
         {\Huge $f(x)=sen(\Pi x)$, $x \in [-2,-1]$} \\[2.5mm]
         {\Large  Lara Kristjansdottir, Javier Hernández Pérez} \\[5mm]
-        {\Large \textit{Grupo ($2\midF$) }} \\[5mm]
+        {\Large \textit{Grupo ($2\mid F$) }} \\[5mm]
 
 
         {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
