@@ -4,18 +4,22 @@
 
 %Los objetivos le dan al lector las razones por las que se realizó el
 %proyecto o trabajo de investigación.
-No todas las integrales se pueden resolver por ello es muy importante el hecho de tener algunos métodos que nos permitan aproximar las integrales cuando tenemos una integral definida. En este caso nos centraremos en el método de los trapecios.
 %---------------------------------------------------------------------------------
-\section{Ejemplo de integral no resoluble}
+\section{Utilidad el método}
 \label{1:sec:1}
  % Primer párrafo de la primera sección.
- $\int{sen \frac {1}{x}}$
+No todas las integrales se pueden resolver por ello es muy importante el hecho de tener algunos métodos que nos permitan aproximar las integrales cuando tenemos una integral definida. En este caso nos centraremos en el método de los trapecios.\par
 
+Además este método tiene una importancia extra. Si un método, como este, es sencillo.Teniendo en cuenta que con funciones en la vida real, midiendo un terreno por ejemplo,normalmente (salvo casos particulares como por ejemplo una persona con un terreno cuadrado que quiera que cada uno de sus dos hijos hereden la mitad de su terreno dividido por la función $sen(\Pi x)$) estas haciendo una aproximación.Usar directamente el método de los trapecios parece una opción lógica.\par
+
+Por ejemplo hallas el área de un cuadrado al medio del terreno y vas eligiendo puntos de la frontera del terreno que esten unidos aproximadamente por lineas rectas. Ya solo queda hallar el area de los trapecios con base el lado del cuadrado que les quede más cerca y sumar.
 %---------------------------------------------------------------------------------
-\section{Nuestra integral se puede resolver}
+\section{Nuestra integral $f(x)=sen(\Pi x)$, $x \in [-2,-1]$ se puede resolver}
 \label{1:sec:2}
   %Primer párrafo de la segunda sección.
-  Que nuestra integral se pueda resolver, como veremos en fundamentos teoricos, es una gran ventaja ya que nos permite comprobar. Lo rápido que aproxima el método de los trapecios, y la efectividad del ordenador con dicho método.
+  Nuestra integral es facil resolverla, lo cual es una gran ventaja ya que nos permite comprobar. Lo rápido que aproxima el método de los trapecios, y la efectividad del ordenador con dicho método. \par
+  
+  Resolvamos ahora $\int _{-2}^{-1}sen(\Pi x)$. Haciendo el cambio $y=\Pi x$ teniendo en cuenta que $\dfrac {\partial y} \dfrac{partial x}=\Pi$ obtenemos que $\int _{-2}^{-1} sen(\Pi x)=dfrac{\int _{-2}^{-1}sen(y)}{\pi}=dfrac$
 
 \begin{itemize}
   \item Item 1
