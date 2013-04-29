@@ -19,7 +19,7 @@ Por ejemplo hallas el área de un cuadrado al medio del terreno y vas eligiendo p
   %Primer párrafo de la segunda sección.
   Nuestra integral es facil resolverla, lo cual es una gran ventaja ya que nos permite comprobar. Lo rápido que aproxima el método de los trapecios, y la efectividad del ordenador con dicho método. \par
   
-  Resolvamos ahora $\int _{-2}^{-1}sen(\Pi x)$. Haciendo el cambio $y=\Pi x$ teniendo en cuenta que $\dfrac {\partial y} \dfrac{partial x}=\Pi$ obtenemos que $\int _{-2}^{-1} sen(\Pi x)=dfrac{\int _{-2}^{-1}sen(y)}{\pi}=dfrac$
+  Resolvamos ahora $\int _{-2}^{-1}sen(\Pi x)$. Haciendo el cambio $y=\Pi x$ teniendo en cuenta que $\dfrac {\partial y} \dfrac{partial x}=\Pi$ obtenemos que $\int _{-2}^{-1} sen(\Pi x)=dfrac{\int _{-2}^{-1}sen(y)}{\pi}=dfrac{}{}$
 
 \begin{itemize}
   \item Item 1
