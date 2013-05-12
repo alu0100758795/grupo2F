@@ -1,0 +1,19 @@
+3.1 Descripción de los experimentos.
+
+Vamos a aplicar la regla del trapecio a la función sin(pi*x) en el intervalo [-2,-1] utilizando una cantidad variable de subintervalos, n. Para cada valor de n, mediremos el error absoluto y el tiempo de ejecución del método. Adicionalmente, aplicaremos la regla de Simpson a la misma función con iguales parámetros para comparar ambos métodos.
+
+3.2 Descripción del material.
+
+Los experimentos han tenido lugar sobre un procesador Intel Core i3-2350M a 2.30 GHz. Nótese que aunque la máquina tiene cuatro procesadores, sólo se empleó uno para realizar los cálculos. El sistema operativo fue Linux Mint 14.1 (Nadia) con la versión 3.5.0-17 del kernel. Los algoritmos fueron implementados en Python y la versión del intérprete fue la 2.7.3.
+
+3.3 Resultados obtenidos.
+
+Aquí vamos a esperar hasta tener la tabla resumen, las gráficas y el cálculo analítico de la cota del error.
+
+3.4 Análisis de los resultados.
+
+Ídem.
+
+4 Conclusiones
+
+Pedro is great

@@ -1,4 +1,3 @@
-# uso de la funcio trapecio_senxpi
 
 import sys, time
 from math import *
@@ -10,15 +9,11 @@ n=range(1,10)+range(10,110,10)
 if __name__=='__main__':
   fichero=open('resultado.txt', 'w')
   
-  e0 = time.time() # Unix epoch time
-  c0 = time.clock() # CPU time
+  e0 = time.time()
   
-  fichero.write("Numero trapecio\nerror\nUnix epoch time\nCPU time\n")
+  fichero.write("n Valor Error Tiempo")
   
   for i in range(len(n)):
-    fichero.write("%i\n%2.10f\n" %(n[i],trapecio_senxpi(n[i])))
-    fichero.write("%2.10f\n" %(error(trapecio_senxpi(n[i])))) 
-    fichero.write("%s\n" %(time.time() - e0))
-    fichero.write("%s\n" %(time.clock() - c0))
+    fichero.write("%i %2.10f %2.10f %s" %(n[i],trapecio_senxpi(n[i]), error(trapecio_senxpi(n[i])), time.time() - e0))
     i+=1
   fichero.close()
