@@ -47,7 +47,15 @@ Ahora veamos que $|I_t-\int_a^bf(x)dx|\leq \frac {(b-a)^3} {12n^2} K$ es una cot
 
 Sea $\alpha$ un punto de la partición P sea $h=\frac {b-a} {n}$ por simplificar notación.\\
 
-Cojamos una función que nos lo hace en intervalitos más pequeños que los h para ir hallando el error.
+Cojamos una función que nos lo hace en intervalos más pequeños que los h para ir hallando el error. \\
+
+$F_\alpha :[0,h]\rightarrow \mathbb{R}$\\
+$t\rightarrow F_\alpha(t)=\frac{t}{2} \left(f(\alpha)+f(\alpha+t) \right)-\int_\alpha ^{\alpha+t} f dt$\\
+
+Derivando obtenemos:\\
+$F'_\alpha(t)=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right) +\frac{t}{2} 0 + \frac{t}{2} f'(\alpha)+t  -f(\alpha+t) +0=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)  -f(\alpha+t)=\frac {1}{2} \left(f(\alpha)-f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)$\\
+
+Derivando de nuevo \\
 
 
 \section{Realización por el método de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
