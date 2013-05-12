@@ -15,7 +15,15 @@ El método de los trapecios consiste en evaluar la función a integrar en algunos 
 
 \section{Convergencia del método de los trapecios}
 \label{2:sec:2}
-  Primer párrafo de la segunda sección.
+  %Primer párrafo de la segunda sección.
+\textbf{Teorema:}\\
+Sea $f$:$[a,b]$ $\rightarrow$ $\mathbb{R}$ una función integrable en el intervalo cerrado $[a,b]$ (En realidad solo es necesario que sea compacto que en $\mathbb{R}$ significa cerrado y acotado. Es decir unión de intervalos cerrados salvo que esa unión sea $\mathbb{R}$). Si $P=\{x_0,x_1,x_2,...,x_n\}$ es la partición de $[a,b]$ que divide a este intervalo en n partes iguales, entonces el siguiente número aproxima a la integral $\int_a^bf(x)dx$.\\
+
+$I_t= \frac{b-a}{n}\left( \frac{f(a)}{2} + f(x_1)+f(x_2)+f(x_3)+...+f(x_{n-1})+\frac{f(b)} {2} \right)$\\
+
+La aproximación tiene un error de si la función $f$ es $C^2$ (derivable 2 veces con derivada continua).\\
+
+$|I_t-\int_a^bf(x)dx|\leq$
 
 \section{Realización por el metodo de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
 \label{3:sec:3}

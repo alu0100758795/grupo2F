@@ -11,6 +11,9 @@
 %\usepackage{templates/multirow}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+usepackage{amsfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \newcommand{\SONY}{{\sc Sony}}
 \newcommand{\MICROSOFT}{{\sc Microsoft}}
@@ -31,7 +34,7 @@
 %\newcommand{\RETURN}{\textbf{retornar} }
 \newcommand{\RET}{\STATE \textbf{retornar} }
 \newcommand{\TO}{\textbf{hasta} }
-%\newcommand{\AND}{\textbf{y} }
+\newcommand{\AND}{\textbf{y} }
 \newcommand{\OR}{\textbf{o} }
 
 %%%%%%%%%%%%%%%%% Creamos un entorno para listar código fuente %%%%%%%%%%%%%%%
