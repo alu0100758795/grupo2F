@@ -17,14 +17,37 @@ El método de los trapecios consiste en evaluar la función a integrar en algunos 
 \label{2:sec:2}
   %Primer párrafo de la segunda sección.
 \textbf{Teorema:}\\
-Sea $f$:$[a,b]$ $\rightarrow$ $\mathbb{R}$ una función integrable en el intervalo cerrado $[a,b]$ (En realidad solo es necesario que sea compacto que en $\mathbb{R}$ significa cerrado y acotado. Es decir unión de intervalos cerrados salvo que esa unión sea $\mathbb{R}$). Si $P=\{x_0,x_1,x_2,...,x_n\}$ es la partición de $[a,b]$ que divide a este intervalo en n partes iguales, entonces el siguiente número aproxima a la integral $\int_a^bf(x)dx$.\\
+Sea $f$:$[a,b]$ $\rightarrow$ $\mathbb{R}$ una función integrable en el intervalo cerrado $[a,b]$. Si $P=\{x_0,x_1,x_2,...,x_n\}$ es la partición de $[a,b]$ que divide a este intervalo en n partes iguales, entonces el siguiente número aproxima a la integral $\int_a^bf(x)dx$.\\
 
 $I_t= \frac{b-a}{n}\left( \frac{f(a)}{2} + f(x_1)+f(x_2)+f(x_3)+...+f(x_{n-1})+\frac{f(b)} {2} \right)$\\
 
 La aproximación tiene un error de si la función $f$ es $C^2$ (derivable 2 veces con derivada continua).\\
 
-$|I_t-\int_a^bf(x)dx|\leq$
+$|I_t-\int_a^bf(x)dx|\leq \frac {(b-a)^3} {12n^2} f'' (\xi)$\\
 
-\section{Realización por el metodo de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
+Con $\forall \xi \in [a,b]$, luego si K es una cota superior de la derivada segunda en cualquier punto de $[a,b]$ tenemos:\\
+
+$|I_t-\int_a^bf(x)dx|\leq \frac {(b-a)^3} {12n^2} K$ \\
+
+
+Aunque esto no lo vamos a demostrar (pues es una cota mala y $f(x)=sen(\Pi x)$ es $C^\infty$ ) si $f$ no es $C^2$ solo pidiendole monotonía en el intervalo se tiene:
+
+$|I_t-\int_a^bf(x)dx|\leq \frac {b-a} {n} |f(b)-f(a)|$ \\
+
+Demostración:\\
+
+Primero veamos que:
+$I_t= \frac{b-a}{n}\left( \frac{f(a)}{2} + f(x_1)+f(x_2)+f(x_3)+...+f(x_{n-1})+\frac{f(b)} {2} \right)$\\
+aproxima a la función\\
+
+Esto es cierto pues $\frac {b-a}{n}$ es la parte del eje x del trapecio entre cada 2 puntos.Si haces todos los trapecios cada punto se repite 2 veces salvo los extremos asi que son solo los extremos los que se dividen entre 2 cuando sumas todas las areas de los trapecios.\\
+
+
+Ahora veamos que $|I_t-\int_a^bf(x)dx|\leq \frac {(b-a)^3} {12n^2} K$ es una cota del error\\
+
+Sea $\alpha$ un punto de la partición P
+
+
+\section{Realización por el método de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
 \label{3:sec:3}
 $f(x)=sen(\Pi x)$, $x \in [-2,-1]$

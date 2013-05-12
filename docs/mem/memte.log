@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.9)  12 MAY 2013 13:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.9)  12 MAY 2013 14:24
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -168,6 +168,16 @@ Cap\'{\i }tulo 1.
 ]) [2]
 Cap\'{\i }tulo 2.
 (./tex/cap2.tex
+Overfull \hbox (7.77803pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10.95 Sea $\OML/cmm/m/it/10.95 f$\OT1/cmr/m/n/10.95 :$[\OML/cmm/m/
+it/10.95 a; b\OT1/cmr/m/n/10.95 ]$ $\OMS/cmsy/m/n/10.95 !$ $\U/msb/m/n/10.95 R$
+ \OT1/cmr/m/n/10.95 una fun-ci^^Son in-te-gra-ble en el in-ter-va-lo ce-rra-do 
+$[\OML/cmm/m/it/10.95 a; b\OT1/cmr/m/n/10.95 ]$. Si $\OML/cmm/m/it/10.95 P \OT1
+/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 x[]; x[]; x[]; :::; x
+[]\OMS/cmsy/m/n/10.95 g$
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
@@ -200,7 +210,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
@@ -229,10 +264,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1511 strings out of 493857
- 18325 string characters out of 1153306
- 76333 words of memory out of 3000000
- 4756 multiletter control sequences out of 15000+50000
+ 1512 strings out of 493857
+ 18333 string characters out of 1153306
+ 75333 words of memory out of 3000000
+ 4757 multiletter control sequences out of 15000+50000
  19693 words of font info for 76 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  25i,5n,27p,736b,256s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -255,7 +290,7 @@ type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb
 ></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on memte.pdf (16 pages, 249817 bytes).
+Output written on memte.pdf (16 pages, 251572 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
