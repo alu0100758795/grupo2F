@@ -2,45 +2,37 @@
 % Chapter 3: Procedimiento experimental 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Este capítulo ha de contar con seccciones para la descripción de los experimentos 
-y del material.
-%
-También debe haber una sección para los resultados obtenidos y una última de 
-análisis de los resultados.
-
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
 \label{3:sec:1}
 
-bla, bla, etc. 
+Vamos a aplicar la regla del trapecio a la función sin(pi*x) en el intervalo [-2,-1] utilizando una cantidad variable de subintervalos, n. Para cada valor de n, mediremos el error absoluto y el tiempo de ejecución del método. Adicionalmente, aplicaremos la regla de Simpson a la misma función con iguales parámetros para comparar ambos métodos.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
 
-bla, bla, etc. 
-
+Los experimentos han tenido lugar sobre un procesador Intel Core i3-2350M a 2.30 GHz. Nótese que aunque la máquina tiene cuatro procesadores, sólo se empleó uno para realizar los cálculos. El sistema operativo fue Linux Mint 14.1 (Nadia) con la versión 3.5.0-17 del kernel. Los algoritmos fueron implementados en Python y la versión del intérprete fue la 2.7.3.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
 \label{3:sec:3}
 
-bla, bla, etc. 
+Aquí vamos a esperar hasta tener la tabla resumen, las gráficas y el cálculo analítico de la cota del error.
+
+%------------------------------------------------------------------------------
+%\begin{figure}[!th]
+%\begin{center}
+%\includegraphics[width=0.75\textwidth]{images/figura1.eps}
+%\caption{Ejemplo de figura}
+%\label{fig:1}
+%\end{center}
+%\end{figure}
+%------------------------------------------------------------------------------
 
 
 %------------------------------------------------------------------------------
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{images/figura1.eps}
-\caption{Ejemplo de figura}
-\label{fig:1}
-\end{center}
-\end{figure}
-%------------------------------------------------------------------------------
-
-
-%------------------------------------------------------------------------------
-\input{tables/table.tex}
+%\input{tables/table.tex}
 %------------------------------------------------------------------------------
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
