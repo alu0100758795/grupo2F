@@ -45,15 +45,15 @@ Esto es cierto pues $\frac {b-a}{n}$ es la parte del eje x del trapecio entre ca
 
 Ahora veamos que $|I_t-\int_a^bf(x)dx|\leq \frac {(b-a)^3} {12n^2} K$ es una cota del error\\
 
-Sea $\alpha$ un punto de la partición P sea $h=\frac {b-a} {n}$ por simplificar notación.\\
+Sea $\alpha$ un punto de la partición P sea $h=\frac {b-a} {n}$ por simplificar notación. La h es la longitud de cada uno de los n intervalos.\\
 
-Cojamos una función que nos lo hace en intervalos más pequeños que los h para ir hallando el error. \\
+Cojamos una función que nos lo hace en intervalos más pequeños que los h para ir hallando el error y que cuando t vale h es un solo trapecio de los n que tenemos menos la integral en ese trapecio es decir el error en un trapecio. \\
 
 $F_\alpha :[0,h]\rightarrow \mathbb{R}$\\
 $t\rightarrow F_\alpha(t)=\frac{t}{2} \left(f(\alpha)+f(\alpha+t) \right)-\int_\alpha ^{\alpha+t} f dt$\\
 
 Derivando obtenemos:\\
-$F'_\alpha(t)=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right) +\frac{t}{2} 0 + \frac{t}{2} f'(\alpha)+t  -f(\alpha+t) +0=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)  -f(\alpha+t)=\frac {1}{2} \left(f(\alpha)-f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)$\\
+$F'_\alpha(t)=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right) +\frac{t}{2} 0 + \frac{t}{2} f'(\alpha+t)  -f(\alpha+t) +0=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)  -f(\alpha+t)=\frac {1}{2} \left(f(\alpha)-f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)$\\
 
 Derivando de nuevo \\
 
@@ -64,9 +64,29 @@ Así que tenemos que $|F''_\alpha(t)| \leq |\frac{t}{2} K|$\\
 
 Integrando que tenemos la ventaja de que K no depende de t y que $F'_\alpha(0)=\frac {1}{2} \left(f(\alpha)-f(\alpha+0) \right)+ \frac{0}{2} f'(\alpha+0)=0+0=0$ tenemos:\\
 
-$|\int_0^t F''_\alpha(t)| \leq |\int_0^t\frac{t}{2} K| \Rightarrow |F'_\alpha(t)| \leq |\frac{t^2}{4} K|$
+$|\int_0^t F''_\alpha(t)| \leq |\int_0^t\frac{t}{2} K| \Rightarrow |F'_\alpha(t)-F'_\alpha(0)| \leq |\frac{t^2}{4} K-\frac{0^2}{4} K| \Rightarrow |F'_\alpha(t)| \leq |\frac{t^2}{4} K|$
 
-Ahora integremos entre 0 y h que es donde se mueve la función $F_\alpha(t)$ con la ventaja de que $F_\alpha(0)=$
+Ahora integremos entre 0 y h que es donde se mueve la función $F_\alpha(t)$ con la ventaja de que $F_\alpha(0)=\frac{0}{2} \left(f(\alpha)+f(\alpha+0) \right)-\int_\alpha ^{\alpha+0} f dt=0-0=0$\\
+
+$|\int_0^h F'_\alpha(t)|\leq|\int_0^h \frac{t^2}{4} K| \Rightarrow |F_\alpha(h)-F_\alpha(0)| \leq |\frac{h^3}{12} K|-\frac{0^3}{12} K|\Rightarrow |F_\alpha(h)| \leq |\frac{h^3}{12} K|$
+
+Hemos obtenido que:\\
+
+$|F_\alpha(h)|=|\frac{h}{2} \left(f(\alpha)+f(\alpha+h) \right)-\int_\alpha ^{\alpha+h} f dh| \leq |\frac{h^3}{12} K|$\\
+
+Si hacemos n veces esta $F_\alpha(h)$ obtenemos todos los errores en los trapecios del intervalo por tanto la cota que nos interesa es:\\
+
+$n|\frac{h^3}{12} K|$\\
+
+Teniendo en cuenta que habiamos defindo h como:\\
+
+$h=\frac {b-a} {n}$\\
+
+Obtenemos:\\
+
+$n|\frac{(b-a)^3}{12 (n^3)} K|\Rightarrow |\frac{(b-a)^3}{12 (n^2)} K|$\\
+
+Como queriamos demostrar $\smile$.
 
 
 \section{Realización por el método de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
