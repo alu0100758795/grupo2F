@@ -23,11 +23,11 @@ $I_t= \frac{b-a}{n}\left( \frac{f(a)}{2} + f(x_1)+f(x_2)+f(x_3)+...+f(x_{n-1})+\
 
 La aproximación tiene un error de si la función $f$ es $C^2$ (derivable 2 veces con derivada continua).\\
 
-$|I_t-\int_a^bf(x)dx|\leq \frac {(b-a)^3} {12n^2} f'' (\xi)$\\
+$|I_t-\int_a^bf(x)dx|\leq |\frac {(b-a)^3} {12n^2} f'' (\xi)|$\\
 
-Con $\forall \xi \in [a,b]$, luego si K es una cota superior de la derivada segunda en cualquier punto de $[a,b]$ tenemos:\\
+Para algún $\xi \in [a,b]$, luego si K es una cota superior de la derivada segunda en cualquier punto de $[a,b]$ tenemos:\\
 
-$|I_t-\int_a^bf(x)dx|\leq \frac {(b-a)^3} {12n^2} K$ \\
+$|I_t-\int_a^bf(x)dx|\leq |\frac {(b-a)^3} {12n^2} K|$ \\
 
 
 Aunque esto no lo vamos a demostrar (pues es una cota mala y $f(x)=sen(\Pi x)$ es $C^\infty$ ) si $f$ no es $C^2$ solo pidiendole monotonía en el intervalo se tiene:
@@ -56,6 +56,17 @@ Derivando obtenemos:\\
 $F'_\alpha(t)=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right) +\frac{t}{2} 0 + \frac{t}{2} f'(\alpha)+t  -f(\alpha+t) +0=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)  -f(\alpha+t)=\frac {1}{2} \left(f(\alpha)-f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)$\\
 
 Derivando de nuevo \\
+
+$F''_\alpha(t)=\frac {1}{2} \left(0-f'(\alpha+t) \right)+ \frac{1}{2} f'(\alpha+t)+\frac{t}{2}f''(\alpha+t)=-\frac {1}{2} f'(\alpha+t) + \frac{1}{2} f'(\alpha+t)+\frac{t}{2}f''(\alpha+t)=\frac{t}{2}f''(\alpha+t)$\\
+
+Elijamos $\xi$ es decir cojemos el K cota superior de la derivada segunda.\\
+Así que tenemos que $|F''_\alpha(t)| \leq |\frac{t}{2} K|$\\
+
+Integrando que tenemos la ventaja de que K no depende de t y que $F'_\alpha(0)=\frac {1}{2} \left(f(\alpha)-f(\alpha+0) \right)+ \frac{0}{2} f'(\alpha+0)=0+0=0$ tenemos:\\
+
+$|\int_0^t F''_\alpha(t)| \leq |\int_0^t\frac{t}{2} K| \Rightarrow |F'_\alpha(t)| \leq |\frac{t^2}{4} K|$
+
+Ahora integremos entre 0 y h que es donde se mueve la función $F_\alpha(t)$ con la ventaja de que $F_\alpha(0)=$
 
 
 \section{Realización por el método de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}

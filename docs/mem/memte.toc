@@ -5,17 +5,17 @@
 \contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{3}
 \contentsline {section}{\numberline {2.1}M\'etodo de los trapecios}{3}
 \contentsline {section}{\numberline {2.2}Convergencia del m\'etodo de los trapecios}{3}
-\contentsline {section}{\numberline {2.3}Realizaci\'on por el m\'etodo de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}{4}
-\contentsline {chapter}{\numberline {3}Procedimiento experimental}{5}
-\contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{5}
-\contentsline {section}{\numberline {3.2}Descripci\'on del material}{5}
-\contentsline {section}{\numberline {3.3}Resultados obtenidos}{5}
-\contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{5}
-\contentsline {chapter}{\numberline {4}Conclusiones}{6}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\'endice 1}{7}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{7}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{7}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\'endice 2}{8}
-\contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{8}
-\contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{8}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{8}
+\contentsline {section}{\numberline {2.3}Realizaci\'on por el m\'etodo de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}{5}
+\contentsline {chapter}{\numberline {3}Procedimiento experimental}{6}
+\contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{6}
+\contentsline {section}{\numberline {3.2}Descripci\'on del material}{6}
+\contentsline {section}{\numberline {3.3}Resultados obtenidos}{6}
+\contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{6}
+\contentsline {chapter}{\numberline {4}Conclusiones}{7}
+\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\'endice 1}{9}
+\contentsline {section}{\numberline {A.1}Algoritmo XXX}{9}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{9}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\'endice 2}{10}
+\contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{10}
+\contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{10}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{10}
