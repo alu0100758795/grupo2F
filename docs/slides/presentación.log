@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.13)  16 MAY 2013 23:06
 =======
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.9)  16 MAY 2013 22:20
 >>>>>>> d96aa33c5d0828c53f4262ea40320b64e7037390
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.9)  16 MAY 2013 23:05
+>>>>>>> e4fcb91b9827e5793abc2787da693f8a693ab587
 entering extended mode
  %&-line parsing enabled.
 **presentación.tex
@@ -1849,5 +1853,9 @@ Here is how much of TeX's memory you used:
  714 hyphenation exceptions out of 8191
  49i,19n,60p,429b,765s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+<<<<<<< HEAD
 Output written on presentación.dvi (17 pages, 213992 bytes).
 >>>>>>> d96aa33c5d0828c53f4262ea40320b64e7037390
+=======
+Output written on presentación.dvi (17 pages, 214104 bytes).
+>>>>>>> e4fcb91b9827e5793abc2787da693f8a693ab587
