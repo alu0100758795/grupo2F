@@ -1,5 +1,6 @@
 \beamer@endinputifotherversion {3.10pt}
 \select@language {spanish}
 \beamer@sectionintoc {1}{Motivaci\IeC {\'o}n y objetivos}{3}{0}{1}
-\beamer@sectionintoc {2}{Descripci\IeC {\'o}n de los experimentos}{4}{0}{2}
-\beamer@sectionintoc {3}{Resultados obtenidos}{5}{0}{3}
+\beamer@sectionintoc {2}{Convergencia del m\IeC {\'e}todo de los trapecios}{4}{0}{2}
+\beamer@sectionintoc {3}{Descripci\IeC {\'o}n de los experimentos}{7}{0}{3}
+\beamer@sectionintoc {4}{Resultados obtenidos}{8}{0}{4}

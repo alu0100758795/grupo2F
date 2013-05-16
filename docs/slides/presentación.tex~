@@ -8,7 +8,7 @@
 \newtheorem{definicion}{Definición}
 \newtheorem{ejemplo}{Ejemplo}
 
-\title{Integración Trapecio $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
+\title{Integración Trapecio \\ $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
 \author{Lara Kristjansdottir, Javier Hernández Pérez}
 \date{\today}
 \usetheme{Madrid}
@@ -36,8 +36,51 @@
 \section{Motivación y objetivos}
 \begin{frame}
 \frametitle{Motivación}
-
+%\begin{example}
 El metodo de los trapecios y un terreno.
+%\end {example}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Convergencia del método de los trapecios}
+\begin{frame}
+\begin {theorem}
+Sea $f$:$[a,b]$ $\rightarrow$ $\mathbb{R}$ una función integrable en el intervalo cerrado $[a,b]$. Si $P=\{x_0,x_1,x_2,...,x_n\}$ es la partición de $[a,b]$ que divide a este intervalo en n partes iguales, entonces el siguiente número aproxima a la integral $\int_a^bf(x)dx$.
+
+$I_t= \frac{b-a}{n}\left( \frac{f(a)}{2} + f(x_1)+f(x_2)+f(x_3)+...+f(x_{n-1})+\frac{f(b)} {2} \right)$
+
+La aproximación tiene un error de si la función $f$ es $C^2$ y K es cota superior de la derivada segunda.
+
+$|I_t-\int_a^bf(x)dx|\leq |\frac {(b-a)^3} {12n^2} K|$
+\end {theorem}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin {frame}
+Demostración:\\
+$F_\alpha :[0,h]\rightarrow \mathbb{R}$\\
+$t\rightarrow F_\alpha(t)=\frac{t}{2} \left(f(\alpha)+f(\alpha+t) \right)-\int_\alpha ^{\alpha+t} f dt$\\
+Derivando:\\
+$F'_\alpha(t)=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right) +\frac{t}{2} 0 + \frac{t}{2} f'(\alpha+t)  -f(\alpha+t) +0=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)  -f(\alpha+t)=\frac {1}{2} \left(f(\alpha)-f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)$\\
+
+$F''_\alpha(t)=\frac {1}{2} \left(0-f'(\alpha+t) \right)+ \frac{1}{2} f'(\alpha+t)+\frac{t}{2}f''(\alpha+t)=-\frac {1}{2} f'(\alpha+t) + \frac{1}{2} f'(\alpha+t)+\frac{t}{2}f''(\alpha+t)=\frac{t}{2}f''(\alpha+t)$\\
+
+\end{frame}
+
+\begin {frame}
+K cota derivada segunda:\\
+$|F''_\alpha(t)| \leq |\frac{t}{2} K|$
+Integramos sabiendo $F'_\alpha(0)=\frac {1}{2} \left(f(\alpha)-f(\alpha+0) \right)+ \frac{0}{2} f'(\alpha+0)=0+0=0$\\
+
+$|\int_0^t F''_\alpha(t)| \leq |\int_0^t\frac{t}{2} K| \Rightarrow |F'_\alpha(t)-F'_\alpha(0)| \leq |\frac{t^2}{4} K-\frac{0^2}{4} K| \Rightarrow |F'_\alpha(t)| \leq |\frac{t^2}{4} K|$
+
+Ademas sabiendo
+$F_\alpha(0)=\frac{0}{2} \left(f(\alpha)+f(\alpha+0) \right)-\int_\alpha ^{\alpha+0} f dt=0-0=0$ seguimos integrando\\
+
+$|\int_0^h F'_\alpha(t)|\leq|\int_0^h \frac{t^2}{4} K| \Rightarrow |F_\alpha(h)-F_\alpha(0)| \leq |\frac{h^3}{12} K|-\frac{0^3}{12} K|\Rightarrow |F_\alpha(h)| \leq |\frac{h^3}{12} K|$
+
+Haciendolo en los n intervalos y sustituyendo h por su valor obtenemos la cota.\\
+
+$|\frac{(b-a)^3}{12 (n^2)} K|$
 \end{frame}
 % *************************************************************************************
 \section{Descripción de los experimentos}
