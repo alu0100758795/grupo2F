@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.13)  16 MAY 2013 18:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.13)  16 MAY 2013 19:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -924,7 +924,32 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemeinfolines.
 sty
 Package: beamerouterthemeinfolines 2010/07/10  (rcs-revision 445340293dde)
-)) (./presentación.aux
+))
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Pi' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\in' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 15.
+
+(./presentación.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
@@ -1101,6 +1126,19 @@ Overfull \hbox (4.69029pt too wide) in paragraph at lines 15--15
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \hbox (21.73265pt too wide) in paragraph at lines 15--15
+ [][][][]  
+ []
+
 Package epstopdf Info: Source file: <img/ullesc.eps>
 (epstopdf)                    date: 2013-03-07 10:14:43
 (epstopdf)                    size: 468190 bytes
@@ -1111,7 +1149,7 @@ Package epstopdf Info: Source file: <img/ullesc.eps>
 o.pdf img/ullesc.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<img/ullesc-eps-converted-to.pdf, id=16, 293.095pt x 302.12875pt>
+<img/ullesc-eps-converted-to.pdf, id=24, 293.095pt x 302.12875pt>
 File: img/ullesc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/ullesc-eps-converted-to.pdf>
@@ -1129,7 +1167,7 @@ to.pdf img/fmatesc.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/fmatesc-eps-converted-to.pdf, id=17, 150.5625pt x 156.585pt>
+<img/fmatesc-eps-converted-to.pdf, id=25, 150.5625pt x 156.585pt>
 File: img/fmatesc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/fmatesc-eps-converted-to.pdf>
@@ -1146,6 +1184,11 @@ Overfull \hbox (4.69029pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/ullesc-eps-converted
@@ -1157,11 +1200,21 @@ Overfull \hbox (4.69029pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [2
 
 ]
 Overfull \hbox (4.69029pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [3
@@ -1171,7 +1224,93 @@ Overfull \hbox (4.69029pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [4
+
+]
+Package epstopdf Info: Source file: <img/Plot_nVSerror.eps>
+(epstopdf)                    date: 2013-05-16 17:47:17
+(epstopdf)                    size: 22505 bytes
+(epstopdf)             Output file: <img/Plot_nVSerror-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-16 19:15:01
+(epstopdf)                    size: 15374 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Plot_nVSerror-eps-conv
+erted-to.pdf img/Plot_nVSerror.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
+ <img/Plot_nVSerror-eps-converted-to.pdf, id=163, 578.16pt x 433.62pt>
+File: img/Plot_nVSerror-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/Plot_nVSerror-eps-converted-to.pdf>
+Package pdftex.def Info: img/Plot_nVSerror-eps-converted-to.pdf used on input l
+ine 59.
+(pdftex.def)             Requested size: 256.72147pt x 192.54015pt.
+
+Overfull \vbox (5.014pt too high) detected at line 59
+ []
+
+
+Overfull \hbox (4.69029pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[5
+
+ <./img/Plot_nVSerror-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/Plot_nVStime.eps>
+(epstopdf)                    date: 2013-05-16 17:47:18
+(epstopdf)                    size: 24214 bytes
+(epstopdf)             Output file: <img/Plot_nVStime-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-16 19:17:28
+(epstopdf)                    size: 15698 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Plot_nVStime-eps-conve
+rted-to.pdf img/Plot_nVStime.eps>
+(epstopdf)             \includegraphics on input line 70.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/Plot_nVStime-eps-converted-to.pdf, id=221, 578.16pt x 433.62pt>
+File: img/Plot_nVStime-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/Plot_nVStime-eps-converted-to.pdf>
+Package pdftex.def Info: img/Plot_nVStime-eps-converted-to.pdf used on input li
+ne 70.
+(pdftex.def)             Requested size: 256.72147pt x 192.54015pt.
+
+Overfull \vbox (5.014pt too high) detected at line 70
+ []
+
+
+Overfull \hbox (4.69029pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[6
+
+ <./img/Plot_nVStime-eps-converted-to.pdf>]
+Overfull \hbox (4.69029pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[7
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonbook.pdf>]
 \tf@nav=\write6
@@ -1183,39 +1322,45 @@ Overfull \hbox (4.69029pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentación.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
 
 (./presentación.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `presentación.out' has not changed.
-(rerunfilecheck)             Checksum: 8A64FAA713923669026DDE7A6228D529;60.
+(rerunfilecheck)             Checksum: 5A891FA1939867F2800A4D5420E6A2DC;184.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 16240 strings out of 493485
- 298150 string characters out of 3143526
- 377540 words of memory out of 3000000
- 19149 multiletter control sequences out of 15000+200000
- 5452 words of font info for 20 fonts, out of 3000000 for 9000
+ 16361 strings out of 493485
+ 300273 string characters out of 3143526
+ 379798 words of memory out of 3000000
+ 19237 multiletter control sequences out of 15000+200000
+ 12027 words of font info for 45 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,16n,60p,429b,786s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on presentación.pdf (4 pages, 64352 bytes).
+ 49i,18n,60p,429b,786s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb>
+Output written on presentación.pdf (7 pages, 143673 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 11 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

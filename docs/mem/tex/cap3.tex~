@@ -22,7 +22,7 @@ Aquí vamos a esperar hasta tener la tabla resumen, las gráficas y el cálculo ana
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{img/Plot_nVSerror.png}
+\includegraphics[width=0.75\textwidth]{img/Plot_nVSerror.eps}
 \caption{nVSerror}
 \label{fig:1}
 \end{center}
@@ -30,7 +30,7 @@ Aquí vamos a esperar hasta tener la tabla resumen, las gráficas y el cálculo ana
 %------------------------------------------------------------------------------
 \begin{figure}[!bh]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{img/Plot_nVStime.png}
+\includegraphics[width=0.75\textwidth]{img/Plot_nVStime.eps}
 \caption{nVStiempo}
 \label{fig:2}
 \end{center}

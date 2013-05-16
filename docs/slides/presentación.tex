@@ -8,7 +8,7 @@
 \newtheorem{definicion}{Definición}
 \newtheorem{ejemplo}{Ejemplo}
 
-\title{Manejo básico de beamer}
+\title{Integración Trapecio \\ $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
 \author{Lara Kristjansdottir, Javier Hernández Pérez}
 \date{\today}
 \usetheme{Madrid}
@@ -39,6 +39,36 @@
 
 El metodo de los trapecios y un terreno.
 \end{frame}
+% *************************************************************************************
+\section{Descripción de los experimentos}
+\begin{frame}
+  \frametitle{Descripción}
+  Vamos a aplicar la regla del trapecio a la función sin(pi*x) en el intervalo [-2,-1] utilizando una cantidad variable de subintervalos, n. Para cada valor de n, mediremos el error absoluto y el tiempo de ejecución del método.
+\end{frame}
+
+\section{Resultados obtenidos}
+\begin{frame}
+  \frametitle{Resultados}
+  \begin{figure}[!th]
+    \begin{center}
+      \includegraphics[width=0.75\textwidth]{img/Plot_nVSerror.eps}
+      \caption{nVSerror}
+      \label{fig:1}
+    \end{center}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Resultados}
+  \begin{figure}[!th]
+    \begin{center}
+      \includegraphics[width=0.75\textwidth]{img/Plot_nVStime.eps}
+      \caption{nVStiempo}
+      \label{fig:2}
+    \end{center}
+  \end{figure}
+\end{frame}
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
   \frametitle{Bibliografía}
@@ -48,6 +78,14 @@ El metodo de los trapecios y un terreno.
     \beamertemplatebookbibitems
     \bibitem[libro]{libro}  
     Juan de Burgos Román (2007) Cálculo infinitesimal de una variable segunda edición McGraw Hill
+    
+    \beamertemplatebookbibitems
+    \bibitem[\LaTeX]{latex}  
+    http://www.latex-project.org/
+    
+    \beamertemplatebookbibitems
+    \bibitem[Python]{python}  
+    http://www.python.org/
     
       
     
