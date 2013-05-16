@@ -13,10 +13,23 @@
 \usecolortheme[RGB={122,59,122}]{structure}
 
 \title{Integración Trapecio \\ $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
-\author{Lára Kristjánsdóttir \\ Técnicas Experimentales}
+\author{Lára Kristjánsdóttir, Javier Hernández Pérez \\ Técnicas Experimentales}
 \date{\today}
 
 \begin{document}
+
+\begin{frame}
+  \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
+  \hspace*{7.5cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc.eps}
+  \titlepage
+  \begin{scriptsize}
+    \begin{center}
+    \title{Integración Trapecio de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
+      Facultad de Matemáticas \\Universidad de a Laguna
+    \end{center}
+  \end{scriptsize}
+\end{frame}
 
 \begin{frame}
   \frametitle{Contenido}
@@ -127,7 +140,7 @@
 
 \section{Análisis de los resultados}
   \begin{frame}
-  \frametitle{Concluciones}
+  \frametitle{Análisis de los resultados}
   \begin{enumerate}
     \item Para n=20 ya obtenemos una buena aproximación de la integral que queremos calcular.
     \pause
@@ -140,9 +153,9 @@
 \end{frame}
 
 
-\section{Concluciones}
+\section{Conclusiones}
 \begin{frame}
- \frametitle{Concluciones}
+ \frametitle{Conclusiones}
   El método de trapecion nos da una buena aproximación de la integral que queríamos calcular con un coste temporal razonable.
 \end{frame}
 
