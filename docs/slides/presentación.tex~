@@ -14,6 +14,7 @@
 \usetheme{Madrid}
 \begin{document}
 \begin{frame}
+\titlepage
   \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
   \hspace*{7.5cm}
   \includegraphics[width=0.16\textwidth]{img/fmatesc.eps}

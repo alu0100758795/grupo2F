@@ -1,0 +1,96 @@
+\documentclass{beamer}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{default}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+\usetheme{Madrid}
+\usecolortheme[RGB={122,59,122}]{structure}
+
+\title{Presentación sobre \LaTeX}
+\author{Lara Kristjansdottir, Javier Hernández Pérez \\ Técnicas Experimentales \\ Grupo 2F}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
+  \hspace*{7.5cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc.eps}
+  \titlepage
+  \begin{scriptsize}
+    \begin{center}
+    \title{Integración Trapecio de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
+      Facultad de Matemáticas \\Universidad de a Laguna
+    \end{center}
+  \end{scriptsize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+
+\section{\LaTeX}
+\begin{frame}
+  \frametitle{¿Qué es \LaTeX?}
+  \begin{definicion}
+    \LaTeX  es un sistema de composición de textos, orientado especialmente para pueder escribir texto científico, por ejemplo para facilitar a escribir fórmulas matemáticas
+  \end{definicion}
+\end{frame}
+
+\section{Fórmulas Matemáticas}
+\subsection{Escritura}
+
+\begin{frame}
+  \frametitle{Escritura de fórmulas en \LaTeX}
+  A la hora de escribir expresiones matemáticas de forma elegante y precisa, \TeX dispone de un modo de escritura especial, el modo matemático.
+	
+  El comando para salir y entrar del modo matemático es el \$, esto es para incluir ecuaciónes en nuestro texto. Para no incluir la ecuación en el texto y tenere la centrada se puede por ejemplo escribir así.   
+\end{frame}
+    
+\subsection{Ejemplos}
+  
+\begin{frame}
+  \frametitle{Ejemplos de fórmulas}
+  \begin{block}{Ejemplo}
+    \begin{itemize}
+    \item
+    $\int_{a}^{b}x^{3}+\sqrt[5]{x}$		
+    \pause
+    
+    \item							
+    $\bar{x}=\frac{1}{n} \sum_{i=1}^{k} \frac{n_{i}x_{i}}{n}$	
+    \pause
+    
+    \item
+    $A \cup B = \O  \Rightarrow A \cup \bar{B} = \bar{B}$
+    \pause
+    
+    \item
+    $x^{3} + 3x^{2} + 5x +2$
+    \pause
+    
+    \item
+    $\lim_{x \to 0} f(x)\cdot g(x) = \lim_{x \to 0} f(x) \cdot \lim_{x \to 0} g(x)$
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+ \begin{thebibliography}{5}
+  \beamertemplatebookbibitems
+  \bibitem[URL: CTAN]{latex} 
+  CTAN. {\small $http://www.ctan.org/$}
+  
+  \beamertemplatebookbibitems
+  \bibitem[URL: \LaTeX proyect]{latex}
+  \LaTeX. {\small $http://www.latex-project.org/$}
+ \end{thebibliography}
+\end{frame}
+
+
+\end{document}

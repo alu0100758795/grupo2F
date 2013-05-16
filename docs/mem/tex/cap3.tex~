@@ -28,6 +28,13 @@ Aquí vamos a esperar hasta tener la tabla resumen, las gráficas y el cálculo ana
 \end{center}
 \end{figure}
 %------------------------------------------------------------------------------
+\begin{figure}[!bh]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{img/Plot_nVStime.png}
+\caption{nVStiempo}
+\label{fig:2}
+\end{center}
+\end{figure}
 %------------------------------------------------------------------------------
 \input{table/tabla.tex}
 %------------------------------------------------------------------------------

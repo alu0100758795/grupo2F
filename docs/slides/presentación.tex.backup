@@ -14,16 +14,7 @@
 \usetheme{Madrid}
 \begin{document}
 \begin{frame}
-  \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
-  \hspace*{7.5cm}
-  \includegraphics[width=0.16\textwidth]{img/fmatesc.eps}
-  \titlepage
-  \begin{scriptsize}
-    \begin{center}
-    \title{Integración Trapecio de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
-      Facultad de Matemáticas \\Universidad de a Laguna
-    \end{center}
-  \end{scriptsize}
+\titlepage
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
