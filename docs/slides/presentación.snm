@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 \beamer@slide {tabla:1}{5}
 \beamer@slide {fig:1}{6}
 \beamer@slide {fig:1}{7}
 \beamer@slide {fig:2}{8}
+=======
+\beamer@slide {fig:1}{15}
+\beamer@slide {fig:2}{16}
+>>>>>>> d96aa33c5d0828c53f4262ea40320b64e7037390

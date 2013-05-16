@@ -6,18 +6,14 @@
 \headcommand {\sectionentry {1}{Motivaci\IeC {\'o}n y objetivos}{3}{Motivaci\IeC {\'o}n y objetivos}{0}}
 \headcommand {\beamer@sectionpages {1}{2}}
 \headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
-\headcommand {\beamer@framepages {3}{3}}
-\headcommand {\sectionentry {2}{Descripci\IeC {\'o}n de los experimentos}{4}{Descripci\IeC {\'o}n de los experimentos}{0}}
-\headcommand {\beamer@sectionpages {3}{3}}
-\headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\slideentry {2}{0}{4}{4/4}{}{0}}
-\headcommand {\beamer@framepages {4}{4}}
-\headcommand {\sectionentry {3}{Resultados obtenidos}{5}{Resultados obtenidos}{0}}
-\headcommand {\beamer@sectionpages {4}{4}}
-\headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\slideentry {3}{0}{5}{5/5}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{3/4}{}{0}}
+\headcommand {\beamer@framepages {3}{4}}
+\headcommand {\sectionentry {2}{Convergencia del m\IeC {\'e}todo de los trapecios}{5}{Convergencia del m\IeC {\'e}todo de los trapecios}{0}}
+\headcommand {\beamer@sectionpages {3}{4}}
+\headcommand {\beamer@subsectionpages {3}{4}}
+\headcommand {\slideentry {2}{0}{4}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
+<<<<<<< HEAD
 \headcommand {\slideentry {3}{0}{6}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\slideentry {3}{0}{7}{7/7}{}{0}}
@@ -35,4 +31,28 @@
 \headcommand {\beamer@subsectionpages {9}{10}}
 \headcommand {\beamer@sectionpages {9}{10}}
 \headcommand {\beamer@documentpages {10}}
+=======
+\headcommand {\slideentry {2}{0}{5}{6/8}{}{0}}
+\headcommand {\beamer@framepages {6}{8}}
+\headcommand {\slideentry {2}{0}{6}{9/13}{}{0}}
+\headcommand {\beamer@framepages {9}{13}}
+\headcommand {\sectionentry {3}{Descripci\IeC {\'o}n de los experimentos}{14}{Descripci\IeC {\'o}n de los experimentos}{0}}
+\headcommand {\beamer@sectionpages {5}{13}}
+\headcommand {\beamer@subsectionpages {5}{13}}
+\headcommand {\slideentry {3}{0}{7}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\sectionentry {4}{Resultados obtenidos}{15}{Resultados obtenidos}{0}}
+\headcommand {\beamer@sectionpages {14}{14}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\slideentry {4}{0}{8}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {4}{0}{9}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {4}{0}{10}{17/17}{}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@partpages {1}{17}}
+\headcommand {\beamer@subsectionpages {15}{17}}
+\headcommand {\beamer@sectionpages {15}{17}}
+\headcommand {\beamer@documentpages {17}}
+>>>>>>> d96aa33c5d0828c53f4262ea40320b64e7037390
 \headcommand {\def \inserttotalframenumber {10}}
