@@ -2,7 +2,8 @@
 \DTLloaddb[noheader,keys={n,error,tiempo}]{table1}{mydata.csv}
 \newcolumntype{d}{D{,}{\pm}{-1}} 
 
-\begin{table}[h]
+\begin{table}[!h]
+ \begin{center}
   \begin{tabular}{l|c|r}% 
     {\bf n} & {\bf error} & {\bf tiempo}
     \DTLforeach*{table1}{%
@@ -10,4 +11,7 @@
       \\
       \n & \error & \tiempo}%
   \end{tabular}
+  \caption{Resultados optenidos por número de trapecios}
+  \label{tabla:1}
+  \end{center}
 \end{table}                                     
