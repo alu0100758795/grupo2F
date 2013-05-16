@@ -23,7 +23,7 @@ plt.title('Numero de trapecio Vs error')
 plt.xlabel('Numero de trapecio')
 plt.ylabel('Error')
   
-plt.savefig("Plot_nVSerror.png")
+plt.savefig("Plot_nVSerror.eps")
   
 diagrama2=plt.figure(2)
   
@@ -33,7 +33,7 @@ plt.title('Numero de trapecio Vs tiempo')
 plt.xlabel('Numero de trapecio')
 plt.ylabel('tiempo (s)')
   
-plt.savefig("Plot_nVStime.png")
+plt.savefig("Plot_nVStime.eps")
   
 fichero.close()
 

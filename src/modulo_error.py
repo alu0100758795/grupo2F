@@ -1,4 +1,5 @@
 # El error obtenido usando el metodo del trapecio
+
 import sys
 from math import *
 

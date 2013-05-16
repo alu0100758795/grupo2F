@@ -2,14 +2,16 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{dcolumn}                                                                                                                                                                                              
+\usepackage{datatool}
 
 \usecolortheme[RGB={122,59,122}]{structure}
 
 \newtheorem{definicion}{Definición}
 \newtheorem{ejemplo}{Ejemplo}
 
-\title{Integración Trapecio $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
-\author{Lara Kristjansdottir, Javier Hernández Pérez}
+\title{Integración Trapecio \\ $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
+\author{Lára Kristjánsdóttir, Javier Hernández Pérez}
 \date{\today}
 \usetheme{Madrid}
 \begin{document}
@@ -49,6 +51,11 @@ El metodo de los trapecios y un terreno.
 \section{Resultados obtenidos}
 \begin{frame}
   \frametitle{Resultados}
+  \input{table/tabla.tex}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Resultados}
   \begin{figure}[!th]
     \begin{center}
       \includegraphics[width=0.75\textwidth]{img/Plot_nVSerror.eps}
@@ -68,6 +75,13 @@ El metodo de los trapecios y un terreno.
     \end{center}
   \end{figure}
 \end{frame}
+
+\section{Concluciones}
+\begin{frame}
+ \frametitle{Concluciones}
+\end{frame}
+
+
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}

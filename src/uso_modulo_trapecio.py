@@ -4,7 +4,7 @@ from math import *
 from modulo_trapecio import trapecio_senxpi
 from modulo_error import error
 
-n=range(1,10)+range(10,110,10)
+n=range(1,8,2)+range(8,20,4)+ range(100,300,100)
 
 if __name__=='__main__':
   fichero=open('resultado.txt', 'w')
