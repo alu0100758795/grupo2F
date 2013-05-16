@@ -2,7 +2,7 @@
 \DTLloaddb[noheader,keys={n,error,tiempo}]{table1}{mydata.csv}
 \newcolumntype{d}{D{,}{\pm}{-1}} 
 
-\begin{table}[c]
+\begin{table}[!h]
   \begin{tabular}{l|c|r}% 
     {\bf n} & {\bf error} & {\bf tiempo}
     \DTLforeach*{table1}{%
