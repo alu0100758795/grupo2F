@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.9)  16 MAY 2013 22:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.9)  16 MAY 2013 22:20
 entering extended mode
  %&-line parsing enabled.
 **presentación.tex
@@ -1024,10 +1024,6 @@ LaTeX Info: Redefining \pageref on input line 15.
 \openout5 = `presentación.out'.
 
 \AtBeginShipoutBox=\box54
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
@@ -1205,12 +1201,6 @@ Overfull \hbox (21.73265pt too wide) has occurred while \output is active
 [7
 
 ]
-File: img/Plot_nVSerror.eps Graphic file (type eps)
- <img/Plot_nVSerror.eps>
-Overfull \vbox (5.01448pt too high) detected at line 102
- []
-
-
 Overfull \hbox (101.80815pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1223,9 +1213,81 @@ Overfull \hbox (21.73265pt too wide) has occurred while \output is active
 [8
 
 ]
-File: img/Plot_nVStime.eps Graphic file (type eps)
- <img/Plot_nVStime.eps>
-Overfull \vbox (5.01448pt too high) detected at line 113
+Overfull \hbox (101.80815pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][][]  
+ []
+
+[9
+
+]
+Overfull \hbox (101.80815pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][][]  
+ []
+
+[10
+
+]
+Overfull \hbox (101.80815pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][][]  
+ []
+
+[11
+
+]
+Overfull \hbox (101.80815pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][][]  
+ []
+
+[12
+
+]
+Overfull \hbox (101.80815pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][][]  
+ []
+
+[13
+
+]
+Overfull \hbox (101.80815pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][][]  
+ []
+
+[14
+
+]
+File: img/Plot_nVSerror.eps Graphic file (type eps)
+ <img/Plot_nVSerror.eps>
+Overfull \vbox (5.01448pt too high) detected at line 111
  []
 
 
@@ -1238,7 +1300,25 @@ Overfull \hbox (21.73265pt too wide) has occurred while \output is active
  [][][][][]  
  []
 
-[9
+[15
+
+]
+File: img/Plot_nVStime.eps Graphic file (type eps)
+ <img/Plot_nVStime.eps>
+Overfull \vbox (5.01448pt too high) detected at line 122
+ []
+
+
+Overfull \hbox (101.80815pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (21.73265pt too wide) has occurred while \output is active
+ [][][][][]  
+ []
+
+[16
 
 ]
 File: beamericonarticle.eps Graphic file (type eps)
@@ -1259,7 +1339,7 @@ Overfull \hbox (21.73265pt too wide) has occurred while \output is active
  [][][][][]  
  []
 
-[10
+[17
 
 ]
 \tf@nav=\write6
@@ -1276,17 +1356,14 @@ Overfull \hbox (21.73265pt too wide) has occurred while \output is active
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 15159 strings out of 493858
- 281605 string characters out of 1153329
+ 15196 strings out of 493858
+ 282632 string characters out of 1153329
  360404 words of memory out of 3000000
- 18013 multiletter control sequences out of 15000+50000
+ 18050 multiletter control sequences out of 15000+50000
  15533 words of font info for 58 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  49i,19n,60p,429b,765s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on presentación.dvi (10 pages, 124868 bytes).
+Output written on presentación.dvi (17 pages, 213992 bytes).
