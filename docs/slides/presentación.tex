@@ -1,0 +1,51 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\usecolortheme[RGB={122,59,122}]{structure}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+\title{Manejo básico de beamer}
+\author{Lara Kristjansdottir, Javier Hernández Pérez}
+\date{\today}
+\usetheme{Madrid}
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Contenido}
+  \tableofcontents
+\end{frame} 
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Motivación y objetivos}
+\begin{frame}
+\frametitle{Motivación}
+
+El metodo de los trapecios y un terreno.
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[libro]{libro}  
+    Juan de Burgos Román (2007) Cálculo infinitesimal de una variable segunda edición McGraw Hill
+    
+      
+    
+      \end{thebibliography}
+\end{frame}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\end{document}
