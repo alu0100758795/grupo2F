@@ -1,0 +1,40 @@
+# Plot n VS tiempo
+import matplotlib.pyplot as plt
+
+if __name__=='__main__':
+  n=[]
+  error=[]
+  time=[]
+  
+  fichero=open('resultado.txt', 'r')
+  for i in range(19):
+    n.append(fichero.readline().strip('\n'))
+    error.append(fichero.readline().strip('\n'))
+    time.append(fichero.readline().strip('\n'))
+  
+  n=[float(i) for i in n]
+  error=[float(i) for i in error]
+  time=[float(i) for i in time]
+  
+  diagrama1=plt.figure(1)
+  
+  plt.plot(n,error,'r')
+  
+  plt.title('Numero de trapecio Vs error')
+  plt.xlabel('Numero de trapecio')
+  plt.ylabel('Error')
+  
+  plt.savefig("Plot_nVSerror.eps")
+  
+  diagrama2=plt.figure(2)
+  
+  plt.plot(n,time)
+  
+  plt.title('Numero de trapecio Vs tiempo')
+  plt.xlabel('Numero de trapecio')
+  plt.ylabel('tiempo')
+  
+  plt.savefig("Plot_nVStime.eps")
+  
+  fichero.close()
+
