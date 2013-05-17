@@ -1,5 +1,13 @@
-# funcion metodo de trapecio de senx*pi desde -2 a -1
-
+ # modulo_trapecio.py
+ #
+ # Lara Kristjansdottir y Javier Hernandez Perez
+ #   
+ # 17.mayo 2013
+ #
+ # Un modulo que contiene una funcion que usa como parametros el numero de
+ # subintervalos y calcula el valor aproximado de la integral de seno(pi*x)
+ # con el metodo del trapcio.
+ 
 import sys
 from math import *
 

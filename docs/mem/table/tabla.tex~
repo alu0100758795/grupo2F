@@ -6,13 +6,12 @@
  \begin{center}
   \begin{tabular}{l|c|r}% 
     {\bf n} & {\bf error} & {\bf tiempo}
-    \hline
     \DTLforeach*{table1}{%
       \n=n,\error=error,\tiempo=tiempo}{%
       \\
       \n & \error & \tiempo}%
   \end{tabular}
-  \caption{Resultados optenidos por numero de trapecios}
+  \caption{Resultados obtenidos por numero de trapecios}
   \label{tabla:1}
   \end{center}
 \end{table}                                     

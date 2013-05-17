@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{BurgosRoman:2007}
+Juan de~Burgos~Roman.
+\newblock {\em Calculo infinitesimal de una variable 2 edicion}.
+\newblock McGRAW-HII/INTERAMERICANA DE ESPANA,S.A.U., 2007.
+
+\bibitem{URL:LATEX}
+LaTeX.
+\newblock http://www.latex-project.org/.
+
+\bibitem{URL:PY}
+Python.
+\newblock http://www.python.org/.
+
+\bibitem{URL:wiki}
+Wikipedia.org.
+\newblock http://es.wikipedia.org/wiki/Regla\_/del\_/trapecio.
+
+\end{thebibliography}

@@ -212,7 +212,7 @@
 \bibliographystyle{plain}
 
 
-\bibliography{bib/referencia.bib}
+\bibliography{bib/references}
 \nocite{*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

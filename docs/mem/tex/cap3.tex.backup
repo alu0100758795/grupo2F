@@ -23,6 +23,7 @@ Los experimentos han tenido lugar sobre un procesador Intel Core i3-2350M a 2.30
 \label{3:sec:3}
 Resumimos los resultados obtenidos en la siguiente tabla:
 
+%Partiendo de diferentes números de subintervalos, generabamos una tabla con los valores donde n es el número de subintervalos, error es el error absoluto y tiempo que es el tiempo que tardo en ejecutarse el calculo de la aproximación y el error absoluto.  Mediante la tabla trazamos 3 gráficas, número de subintervalos frente al error, número de subintervalos frente al error añadiendo número de subintervalos frenta a la cota de error y por ultimo número de subintervalos frente al tiempo de ejecución.
 %------------------------------------------------------------------------------
 \input{table/tabla.tex}
 
@@ -33,13 +34,17 @@ donde $n$ es el número de subintervalos, $error$ es el error absoluto cometido y
 \section{Análisis de los resultados}
 \label{3:sec:4}
 
- Para analizar los resultados, generamos dos gráficas: $n$ contra $error$(~\ref{fig:1}) y $n$ contra $tiempo$(~\ref{fig:3}). Además, para combrobar la corrección del método, generamos una tercera gráfica en la que superponemos la cota del error al error absoluto obtenido(~\ref{fig:2}).
+ Para analizar los resultados, generamos dos gráficas: $n$ contra $error$~\ref{fig:1} y $n$ contra $tiempo$~\ref{fig:3}. Además, para combrobar la corrección del método, generamos una tercera gráfica en la que superponemos la cota del error al error absoluto obtenido~\ref{fig:2}.
  
  Podemos ver que el error absoluto, calculado con el método del trapecio, converge a cero rápidamente (de manera cuadrática) y que apartir de $n=20$ ya obtenemos una buena aproximación de la integral que queremos calcular.
  
  Al superponer la cota del error al error obtenido, podemos ver que el segundo siempre está por debajo, como era de esperar. Esto nos indica que el método ha sido implementado correctamente.
- 
- Para observar mejor el coste temporal del método, hemos tomado valores de $n$ desde $n=1$ hasta $n=500$. Así podemos ver que a partir de $n=300$ el crecimiento de la gráfica es lineal: es decir, proporcional al valor de $n$. Esto es lo que esperábamos puesto que, para obtener una aproximación con $n$ subintervalos, necesitamos hacer $n$ operaciones, todas ellas de coste constante.
 
- \input{img/img.tex}
+ %Miramos la primera gráfica de los números de subintervalos frente al error~\ref{fig:1}. Análisando la gráfica obtenemos que el error absoluto, calculando con el método del trapecio, converge a cero rápidamente y que apartir de n=20 ya obtenemos una buena aproximación de la integral que queremos calcular.
+ 
+ %En la segunda gráfica, o~\ref{fig:2}, hemos añadido la gráfica de los número de subintervalos frente a la cota superior de error. Observando la gráfica se ve que el error obtenido por los números de subintervalos en todo cas es menor que la cota calculada análiticamente.
+ 
+ %El la tercera y la última gráfica, la gráfica~\ref{fig:3}, trazamos los números de subintervalos frente al tiempo que tardo en ejecutarse el cáculo de la aproximación de la integral y el error absoluto. Para trazar esta gráfica cogimos muchos más valores de número de subintervalos, o de 1 a 500 con un salto de 2, para ver bien el comportamiento del tiempo para cada número de subintervalo. Mirrando la gráfica se ve que el coste temporal es casi lineal y esto es porque el cálculo de la apróximación de la integral y error absoluto esta de dependiente del número de subintervalos.
+ 
+\input{img/img.tex}
 

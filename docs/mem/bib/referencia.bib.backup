@@ -1,0 +1,32 @@
+@Book{Lamport:LDP94,
+author =
+"Leslie Lamport" ,
+title =
+"\LaTeX: A Document Preparation System" ,
+publisher = "Addison--Wesley Pub.\ Co." ,
+year =
+"1986" ,
+address =
+"Reading, MA"
+}
+
+@MISC{URL:XML,
+author
+= "Wikipedia.org",
+note
+= {http://es.wikipedia.org/wiki/Regla_del_trapecio}
+}
+
+@MISC{URL:XML,
+author
+= "Python",
+note
+= {http://www.python.org/}
+}
+
+@MISC{URL:XML,
+author
+= "LaTeX",
+note
+= {http://www.latex-project.org/}
+}

@@ -1,0 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter 4: Conclusiones y Trabajos Futuros 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusiones}
+\label{4:sec:1}
+El m\'etodo del trapecio nos da una buena aproximaci\'on de la integral que quer\'iamos calcular con un coste temporal razonable.
+El error obtenido nunca supera de todo la cota superior calculada y con m\'as subintervalos el error absoluto disminuye y la aproximaci\'on se queda mas precisa aun que tarde m\'as.

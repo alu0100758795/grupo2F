@@ -5,44 +5,41 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
 \label{3:sec:1}
+Vamos a aplicar la regla del trapecio a la función $sin(\pi x)$ en el intervalo $[-2,-1]$ utilizando una cantidad variable de subintervalos, $n$. Para cada valor de $n$, mediremos el error absoluto y el tiempo de ejecución del método. Los valores de $n$ que consideraremos irán desde $n=1$ hasta un $n_f$ tal que el error del método no disminuya casi nada cuando $n > n_f$. 
 
-Vamos a aplicar la regla del trapecio a la función sin(pi*x) en el intervalo [-2,-1] utilizando una cantidad variable de subintervalos, n. Para cada valor de n, mediremos el error absoluto y el tiempo de ejecución del método.
+Primero calculamos analíticamente la cota superior del error para comparar los errores que vamos obteniendo con dicha cota. Sabemos que su expresión es $$error(n) < -\frac{h^{2}}{12}f''(\xi)(b-a) \quad,\quad \xi\in[a,b]$$ que en nuestro caso será $$\frac{\pi^{2}}{12n^{2}}$$
+
+Para calcular el error absoluto de cada aproximación, restaremos al valor calculado analíticamente para la integral, $\frac{2}{\pi}$, el valor obtenido por el método. De la resta, haremos el valor absoluto.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
 
-Los experimentos han tenido lugar sobre un procesador Intel Core i3-2350M a 2.30 GHz. Nótese que aunque la máquina tiene cuatro procesadores, sólo se empleó uno para realizar los cálculos. El sistema operativo fue Linux Mint 14.1 (Nadia) con la versión 3.5.0-17 del kernel. Los algoritmos fueron implementados en Python y la versión del intérprete fue la 2.7.3.
+Los experimentos han tenido lugar sobre un procesador Intel Core i3-2350M a 2.30 GHz. Nótese que, aunque la máquina tiene cuatro procesadores, sólo se empleó uno de ellos para realizar los cálculos. El sistema operativo fue Linux Mint 14.1 (Nadia) con la versión 3.5.0-17 del kernel. Los algoritmos fueron implementados en Python y la versión del intérprete de este lenguaje fue la 2.7.3.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\pagebreak
 \section{Resultados obtenidos}
 \label{3:sec:3}
+Resumimos los resultados obtenidos en la siguiente tabla:
 
-Aquí vamos a esperar hasta tener la tabla resumen, las gráficas y el cálculo analítico de la cota del error.
-%------------------------------------------------------------------------------
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{img/Plot_nVSerror.eps}
-\caption{nVSerror}
-\label{fig:1}
-\end{center}
-\end{figure}
-%------------------------------------------------------------------------------
-\begin{figure}[!bh]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{img/Plot_nVStime.eps}
-\caption{nVStiempo}
-\label{fig:2}
-\end{center}
-\end{figure}
 %------------------------------------------------------------------------------
 \input{table/tabla.tex}
+
+donde $n$ es el número de subintervalos, $error$ es el error absoluto cometido y $tiempo$ es el tiempo de ejecución.
+
 %------------------------------------------------------------------------------
-
-
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Análisis de los resultados}
 \label{3:sec:4}
 
-bla, bla, etc. 
+ Para analizar los resultados, generamos dos gráficas: $n$ contra $error$~\ref{fig:1} y $n$ contra $tiempo$~\ref{fig:3}. Además, para combrobar la corrección del método, generamos una tercera gráfica en la que superponemos la cota del error al error absoluto obtenido~\ref{fig:2}.
+ 
+ Podemos ver que el error absoluto, calculado con el método del trapecio, converge a cero rápidamente (de manera cuadrática) y que apartir de $n=20$ ya obtenemos una buena aproximación de la integral que queremos calcular.
+ 
+ Al superponer la cota del error al error obtenido, podemos ver que el segundo siempre está por debajo, como era de esperar. Esto nos indica que el método ha sido implementado correctamente.
+ 
+ Para observar mejor el coste temporal del método, hemos tomado valores de $n$ desde $n=1$ hasta $n=500$. Así podemos ver que a partir de $n=300$ el crecimiento de la gráfica es lineal: es decir, proporcional al valor de $n$. Esto es lo que esperábamos puesto que, para obtener una aproximación con $n$ subintervalos, necesitamos hacer $n$ operaciones, todas ellas de coste constante.
+
+ \input{img/img.tex}
 

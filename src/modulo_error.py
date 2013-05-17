@@ -1,4 +1,12 @@
-# El error obtenido usando el metodo del trapecio
+ # modulo_error.py
+ #
+ # Lara Kristjansdottir y Javier Hernandez Perez
+ #   
+ # 17.mayo 2013
+ #
+ # Un modulo que contiene una funcion que usa como parametros el numero de
+ # subintervalos y devuelve el error absoluto de la integral de seno(pi*x), applicando
+ # el metodo del trapecio.
 
 import sys
 from math import *

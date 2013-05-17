@@ -8,6 +8,7 @@
 \usepackage{alltt}
 \usepackage{dcolumn}                                                                                                                                                                                              
 \usepackage{datatool}
+\usepackage{natbib}
 %\usepackage{templates/algorithm}
 %\usepackage{templates/algorithmic}
 %\usepackage{templates/multirow}
@@ -87,10 +88,6 @@
 
 \input{amssym.def}
 
-\DTLloaddb[noheader,keys={n,error,tiempo}]{table1}{mydata.csv}
-
-\newcolumntype{d}{D{,}{\pm}{-1}} 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -116,7 +113,7 @@
 \begin{center}
         {\Huge Integración Trapecio} \\[2.5mm] 
         {\Huge $f(x)=sen(\Pi x)$, $x \in [-2,-1]$} \\[2.5mm]
-        {\Large  Lara Kristjansdottir, Javier Hernández Pérez} \\[5mm]
+        {\Large  Lára Kristjánsdóttir, Javier Hernández Pérez} \\[5mm]
         {\Large \textit{Grupo ($2\mid F$) }} \\[5mm]
 
 
@@ -208,11 +205,6 @@
 
 \input{tex/apendice1.tex}
 
-\chapter{Título del Apéndice 2}
-\label{appendix:2}
-
-\input{tex/apendice2.tex}
-
 \end{appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -220,7 +212,7 @@
 \bibliographystyle{plain}
 
 
-\bibliography{bib/references}
+\bibliography{bib/reference}
 \nocite{*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

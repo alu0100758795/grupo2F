@@ -1,0 +1,69 @@
+\section{Algoritmo XXX}
+\label{Apendice1:XXX}
+
+\begin{center}
+\begin{footnotesize}
+\begin{verbatim}
+
+/###################################################################################
+ # modulo_trapecio.py
+ ###################################################################################
+ #
+ # Lara Kristjansdottir y Javier Hernandez Perez
+ #   
+ # 17.mayo 2013
+ #
+ # Es un modulo que contiene una funcion que usa como parametros el numero de
+ # subintervalos y calcula el valor aproximado de la integral de seno(pi*x)
+ # con el metodo del trapcio.
+ #
+ ##################################################################################
+\end{verbatim}
+\end{footnotesize}
+\end{center}
+
+\section{Algoritmo YYY}
+\label{Apendice1:YYY}
+
+\begin{center}
+\begin{footnotesize}
+\begin{verbatim}
+/###################################################################################
+ # modulo_error.py
+ ###################################################################################
+ #
+ # Lara Kristjansdottir y Javier Hernandez Perez
+ #   
+ # 17.mayo 2013
+ #
+ # Es un modulo que contiene una funcion que usa como parametros el numero de
+ # subintervalos y devuelve el error absoluto de la integral de seno(pi*x), applicando
+ # el metodo del trapecio.
+ #
+ ###################################################################################
+\end{verbatim}
+\end{footnotesize}
+\end{center}
+
+\section{Algoritmo HHH}
+\label{Apendice1:HHH}
+
+\begin{center}
+\begin{footnotesize}
+\begin{verbatim}
+/###################################################################################
+ # modulo_error.py
+ ###################################################################################
+ #
+ # Lara Kristjansdottir y Javier Hernandez Perez
+ #   
+ # 17.mayo 2013
+ #
+ # Es un modulo que contiene una funcion que usa como parametros el numero de
+ # subintervalos y devuelve el error absoluto de la integral de seno(pi*x), applicando
+ # el metodo del trapecio.
+ #
+ ###################################################################################
+\end{verbatim}
+\end{footnotesize}
+\end{center}

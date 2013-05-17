@@ -2,20 +2,19 @@
 \contentsline {chapter}{\numberline {1}Motivaci\'on y objetivos}{1}
 \contentsline {section}{\numberline {1.1}Utilidad el m\'etodo}{1}
 \contentsline {section}{\numberline {1.2}Nuestra integral $f(x)=sen(\pi x)$, $x \in [-2,-1]$ se puede resolver}{1}
-\contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{3}
-\contentsline {section}{\numberline {2.1}M\'etodo de los trapecios}{3}
-\contentsline {section}{\numberline {2.2}Convergencia del m\'etodo de los trapecios}{3}
-\contentsline {section}{\numberline {2.3}Realizaci\'on por el m\'etodo de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}{5}
-\contentsline {chapter}{\numberline {3}Procedimiento experimental}{6}
-\contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{6}
-\contentsline {section}{\numberline {3.2}Descripci\'on del material}{6}
+\contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{2}
+\contentsline {section}{\numberline {2.1}M\'etodo de los trapecios}{2}
+\contentsline {section}{\numberline {2.2}Convergencia del m\'etodo de los trapecios}{2}
+\contentsline {section}{\numberline {2.3}Realizaci\'on por el m\'etodo de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}{4}
+\contentsline {chapter}{\numberline {3}Procedimiento experimental}{5}
+\contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{5}
+\contentsline {section}{\numberline {3.2}Descripci\'on del material}{5}
 \contentsline {section}{\numberline {3.3}Resultados obtenidos}{6}
 \contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{6}
 \contentsline {chapter}{\numberline {4}Conclusiones}{9}
+\contentsline {section}{\numberline {4.1}Conclusiones}{9}
 \contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\'endice 1}{11}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{11}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{11}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\'endice 2}{12}
-\contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{12}
-\contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{12}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{12}
+\contentsline {section}{\numberline {A.1}Algoritmo MODULO DE TRAPECIO}{11}
+\contentsline {section}{\numberline {A.2}Algoritmo MODULO ERROR ABSOLUTO}{12}
+\contentsline {section}{\numberline {A.3}Algoritmo METODO TRAPECIO}{12}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{13}

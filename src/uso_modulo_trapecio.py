@@ -1,4 +1,13 @@
-
+ # uso_modulo_trapecio.py
+ #
+ # Lara Kristjansdottir y Javier Hernandez Perez
+ #   
+ # 17.mayo 2013
+ #
+ # Un programa que calcula el valor de la funcion seno(pi*x) con el metodo del 
+ # del trapecio, el valor absoluto, el tiempo que tarda en calcularlo y lo guarda en
+ # un fichero llamado resultado.txt.
+ 
 import time
 from math import *
 from modulo_trapecio import trapecio_senxpi

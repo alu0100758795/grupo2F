@@ -1,0 +1,23 @@
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=0.75\textwidth]{img/Plot_nVSerror.eps}
+    \caption{nVSerror}
+    \label{fig:1}
+  \end{center}
+\end{figure}
+
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=0.75\textwidth]{img/Plot_nVSerrorAndcota.eps}
+    \caption{nVSerror}
+    \label{fig:2}
+  \end{center}
+\end{figure}
+%------------------------------------------------------------------------------
+\begin{figure}[!h]
+  \begin{center}
+    \includegraphics[width=0.75\textwidth]{img/Plot_nVStime.eps}
+    \caption{nVStiempo}
+    \label{fig:3}
+  \end{center}
+\end{figure}
