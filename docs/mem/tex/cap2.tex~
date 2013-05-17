@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Chapter 2: Fundamentos Teóricos 
+% Chapter 2: Fundamentos Teóricos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -11,7 +11,7 @@
 
 \section{Método de los trapecios}
 \label{2:sec:1}
-El método de los trapecios consiste en evaluar la función a integrar en algunos puntos que se unen con líneas rectas para aproximar el resto. Si unimos el eje y los puntos evaluados con rectas perpendiculares al eje. Hemos obtenido los trapecios formados por las rectas perpendiculares a los ejes, el eje y las rectas que unen a los puntos evaluados.La suma del area de esos trapecios es muy parecida a el area de debajo de la función es decir la integral. El área de esos trapecios es facil de hallar$\frac {h} {2} (a+b)$ donde $h$ es la longitud del eje entre la imagen en el eje de los dos puntos por la recta perpendicular al punto, $a$ y $b$ la evaluación de la función en los dos puntos.
+El método de los trapecios consiste en evaluar la función a integrar en algunos puntos que se unen con líneas rectas para aproximar el resto. Si unimos el eje y los puntos evaluados con rectas perpendiculares al eje hemos obtenido los trapecios formados por las rectas perpendiculares a los ejes, el eje y las rectas que unen a los puntos evaluados. La suma del área de esos trapecios es muy parecida a el área de debajo de la función es decir la integral. Está área  es fácil de hallar$\frac {h} {2} (a+b)$ donde $h$ es la longitud del eje entre la imagen en el eje de los dos puntos por la recta perpendicular al punto, $a$ y $b$ la evaluación de la función en los dos puntos.
 
 \section{Convergencia del método de los trapecios}
 \label{2:sec:2}
@@ -30,7 +30,7 @@ Para algún $\xi \in [a,b]$, luego si K es una cota superior de la derivada segun
 $|I_t-\int_a^bf(x)dx|\leq |\frac {(b-a)^3} {12n^2} K|$ \\
 
 
-Aunque esto no lo vamos a demostrar (pues es una cota mala y $f(x)=sen(\Pi x)$ es $C^\infty$ ) si $f$ no es $C^2$ solo pidiendole monotonía en el intervalo se tiene:
+Aunque esto no lo vamos a demostrar (pues es una cota mala y $f(x)=sen(\Pi x)$ es $C^\infty$ ) si $f$ no es $C^2$ solo pidiéndole monotonía en el intervalo se tiene:
 
 $|I_t-\int_a^bf(x)dx|\leq \frac {b-a} {n} |f(b)-f(a)|$ \\
 
@@ -40,7 +40,7 @@ Primero veamos que:
 $I_t= \frac{b-a}{n}\left( \frac{f(a)}{2} + f(x_1)+f(x_2)+f(x_3)+...+f(x_{n-1})+\frac{f(b)} {2} \right)$\\
 aproxima a la función\\
 
-Esto es cierto pues $\frac {b-a}{n}$ es la parte del eje x del trapecio entre cada 2 puntos.Si haces todos los trapecios cada punto se repite 2 veces salvo los extremos asi que son solo los extremos los que se dividen entre 2 cuando sumas todas las areas de los trapecios.\\
+Esto es cierto pues $\frac {b-a}{n}$ es la parte del eje x del trapecio entre cada 2 puntos.Si haces todos los trapecios cada punto se repite 2 veces salvo los extremos asi que son solo los extremos los que se dividen entre 2 cuando sumas todas las áreas de los trapecios.\\
 
 
 Ahora veamos que $|I_t-\int_a^bf(x)dx|\leq \frac {(b-a)^3} {12n^2} K$ es una cota del error\\
@@ -53,13 +53,13 @@ $F_\alpha :[0,h]\rightarrow \mathbb{R}$\\
 $t\rightarrow F_\alpha(t)=\frac{t}{2} \left(f(\alpha)+f(\alpha+t) \right)-\int_\alpha ^{\alpha+t} f dt$\\
 
 Derivando obtenemos:\\
-$F'_\alpha(t)=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right) +\frac{t}{2} 0 + \frac{t}{2} f'(\alpha+t)  -f(\alpha+t) +0=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)  -f(\alpha+t)=\frac {1}{2} \left(f(\alpha)-f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)$\\
+$F'_\alpha(t)=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right) +\frac{t}{2} 0 + \frac{t}{2} f'(\alpha+t) -f(\alpha+t) +0=\frac{1}{2}\left(f(\alpha)+f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t) -f(\alpha+t)=\frac {1}{2} \left(f(\alpha)-f(\alpha+t) \right)+ \frac{t}{2} f'(\alpha+t)$\\
 
 Derivando de nuevo \\
 
 $F''_\alpha(t)=\frac {1}{2} \left(0-f'(\alpha+t) \right)+ \frac{1}{2} f'(\alpha+t)+\frac{t}{2}f''(\alpha+t)=-\frac {1}{2} f'(\alpha+t) + \frac{1}{2} f'(\alpha+t)+\frac{t}{2}f''(\alpha+t)=\frac{t}{2}f''(\alpha+t)$\\
 
-Elijamos $\xi$ es decir cojemos el K cota superior de la derivada segunda.\\
+Elijamos $\xi$ es decir cogemos el K cota superior de la derivada segunda.\\
 Así que tenemos que $|F''_\alpha(t)| \leq |\frac{t}{2} K|$\\
 
 Integrando que tenemos la ventaja de que K no depende de t y que $F'_\alpha(0)=\frac {1}{2} \left(f(\alpha)-f(\alpha+0) \right)+ \frac{0}{2} f'(\alpha+0)=0+0=0$ tenemos:\\
@@ -78,7 +78,7 @@ Si hacemos n veces esta $F_\alpha(h)$ obtenemos todos los errores en los trapeci
 
 $n|\frac{h^3}{12} K|$\\
 
-Teniendo en cuenta que habiamos defindo h como:\\
+Teniendo en cuenta que habiamos definido h como:\\
 
 $h=\frac {b-a} {n}$\\
 
@@ -86,9 +86,4 @@ Obtenemos:\\
 
 $n|\frac{(b-a)^3}{12 (n^3)} K|\Rightarrow |\frac{(b-a)^3}{12 (n^2)} K|$\\
 
-Como queriamos demostrar $\smile$.
-
-
-\section{Realización por el método de los trapecios de $f(x)=sen(\Pi x)$, $x \in [-2,-1]$}
-\label{3:sec:3}
-$f(x)=sen(\Pi x)$, $x \in [-2,-1]$
+Como queriamos demostrar.
