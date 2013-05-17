@@ -5,4 +5,4 @@
 \beamer@sectionintoc {3}{Descripci\IeC {\'o}n de los experimentos}{14}{0}{3}
 \beamer@sectionintoc {4}{Resultados obtenidos}{15}{0}{4}
 \beamer@sectionintoc {5}{An\IeC {\'a}lisis de los resultados}{19}{0}{5}
-\beamer@sectionintoc {6}{Concluciones}{23}{0}{6}
+\beamer@sectionintoc {6}{Conclusiones}{23}{0}{6}

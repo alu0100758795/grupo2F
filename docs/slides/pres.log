@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.5.13)  17 MAY 2013 00:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.13)  17 MAY 2013 07:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -94,7 +94,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
@@ -132,10 +132,18 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
 ))
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
@@ -174,22 +182,21 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yc=\dimen136
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count105
-\c@pgf@countb=\count106
-\c@pgf@countc=\count107
-\c@pgf@countd=\count108
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 900.
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-dvips.def
-File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
-File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
-\pgf@objectcount=\count109
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
@@ -205,8 +212,9 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -332,8 +340,8 @@ Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -351,7 +359,7 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -419,17 +427,10 @@ Package hyperref Message: Stopped early.
 
 )
 
-Package hyperref Message: Driver (default): hdvips.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2012/05/13 v6.82q Hyperref driver for dvips
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2012/05/13 v6.82q Hyperref definitions for pdfmark specials
-\pdf@docset=\toks23
-\pdf@box=\box40
-\pdf@toks=\toks24
-\pdf@defaulttoks=\toks25
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
 \Fld@listcount=\count124
 \c@bookmark@seq@number=\count125
 
@@ -437,7 +438,7 @@ File: pdfmark.def 2012/05/13 v6.82q Hyperref definitions for pdfmark specials
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
-)))
+))
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaserequires.sty
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 
@@ -452,7 +453,7 @@ Package: amssymb 2009/06/22 v3.00
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks26
+\@emptytoks=\toks23
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -490,9 +491,9 @@ Package: beamerbasesection 2010/06/17  (rcs-revision e0d9401bb743)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframe.sty
 Package: beamerbaseframe 2010/06/06  (rcs-revision bff0a9294b45)
-\beamer@framebox=\box41
-\beamer@frametitlebox=\box42
-\beamer@zoombox=\box43
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
 \beamer@zoomcount=\count133
 \beamer@zoomframecount=\count134
 \beamer@frametextheight=\dimen164
@@ -501,7 +502,7 @@ Package: beamerbaseframe 2010/06/06  (rcs-revision bff0a9294b45)
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
-\beamer@envbody=\toks27
+\beamer@envbody=\toks24
 \c@framenumber=\count136
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseverbatim.sty
@@ -510,40 +511,40 @@ Package: beamerbaseverbatim 2010/05/01  (rcs-revision efa082c6111d)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframesize.sty
 Package: beamerbaseframesize 2010/06/27  (rcs-revision 6baa2d92e6f1)
-\beamer@splitbox=\box44
+\beamer@splitbox=\box43
 \beamer@autobreakcount=\count137
 \beamer@autobreaklastheight=\dimen165
-\beamer@frametitletoks=\toks28
-\beamer@framesubtitletoks=\toks29
+\beamer@frametitletoks=\toks25
+\beamer@framesubtitletoks=\toks26
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframecomponents.sty
 Package: beamerbaseframecomponents 2010/07/12  (rcs-revision 09e82992d9b1)
-\beamer@footins=\box45
+\beamer@footins=\box44
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasecolor.sty
 Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasenotes.sty
 Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
-\beamer@frameboxcopy=\box46
+\beamer@frameboxcopy=\box45
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetoc.sty
 Package: beamerbasetoc 2010/06/11  (rcs-revision 242ecaa6783b)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
-\beamer@sbttoks=\toks30
+\beamer@sbttoks=\toks27
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseauxtemplates.sty
 Package: beamerbaseauxtemplates 2010/05/01  (rcs-revision efa082c6111d)
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseboxes.sty
 Package: beamerbaseboxes 2010/05/01  (rcs-revision efa082c6111d)
-\bmb@box=\box47
-\bmb@colorbox=\box48
-\bmb@boxshadow=\box49
-\bmb@boxshadowball=\box50
-\bmb@boxshadowballlarge=\box51
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
 \bmb@temp=\dimen166
 \bmb@dima=\dimen167
 \bmb@dimb=\dimen168
@@ -556,7 +557,7 @@ Package: beamerbaselocalstructure 2010/06/01  (rcs-revision 81f9e33f7cc2)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks31
+\@enLab=\toks28
 )
 \c@figure=\count138
 \c@table=\count139
@@ -579,7 +580,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks32
+\@emptytoks=\toks29
 \ex@=\dimen171
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -599,8 +600,8 @@ LaTeX Info: Redefining \overline on input line 307.
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box51
+\strutbox@=\box52
 \big@size=\dimen173
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
@@ -609,35 +610,35 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \dotsspace@=\muskip11
 \c@parentequation=\count147
 \dspbrk@lvl=\count148
-\tag@help=\toks33
+\tag@help=\toks30
 \row@=\count149
 \column@=\count150
 \maxfields@=\count151
-\andhelp@=\toks34
+\andhelp@=\toks31
 \eqnshift@=\dimen174
 \alignsep@=\dimen175
 \tagshift@=\dimen176
 \tagwidth@=\dimen177
 \totwidth@=\dimen178
 \lineht@=\dimen179
-\@envbody=\toks35
+\@envbody=\toks32
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks36
+\mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2009/07/02 v2.20.1
-\thm@style=\toks37
-\thm@bodyfont=\toks38
-\thm@headfont=\toks39
-\thm@notefont=\toks40
-\thm@headpunct=\toks41
+\thm@style=\toks34
+\thm@bodyfont=\toks35
+\thm@headfont=\toks36
+\thm@notefont=\toks37
+\thm@headpunct=\toks38
 \thm@preskip=\skip54
 \thm@postskip=\skip55
 \thm@headsep=\skip56
-\dth@everypar=\toks42
+\dth@everypar=\toks39
 )
 \c@theorem=\count152
 )
@@ -676,7 +677,7 @@ LaTeX Info: Redefining \textlatin on input line 82.
 \U@D=\dimen182
 )
 \es@datefmt=\count154
-\es@quottoks=\toks43
+\es@quottoks=\toks40
 \es@quotdepth=\count155
 Package babel Info: Making " an active character on input line 496.
 Package babel Info: Making . an active character on input line 599.
@@ -685,8 +686,8 @@ Package babel Info: Making > an active character on input line 644.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks44
-\inpenc@posthook=\toks45
+\inpenc@prehook=\toks41
+\inpenc@posthook=\toks42
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -914,7 +915,7 @@ Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen186
 \extrarowheight=\dimen187
-\NC@list=\toks58
+\NC@list=\toks55
 \extratabsurround=\skip57
 \backup@length=\skip58
 ))
@@ -925,8 +926,8 @@ Package: datatool 2009/11/15 v2.03 (NLCT)
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks59
-\XKV@tempa@toks=\toks60
+\XKV@toks=\toks56
+\XKV@tempa@toks=\toks57
 \XKV@depth=\count161
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
@@ -1000,12 +1001,12 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \dtl@codeB=\count179
 \dtlcolumnnum=\count180
 \dtlrownum=\count181
-\@dtl@before=\toks61
-\@dtl@after=\toks62
-\@dtl@colhead=\toks63
-\dtlcurrentrow=\toks64
-\dtlbeforerow=\toks65
-\dtlafterrow=\toks66
+\@dtl@before=\toks58
+\@dtl@after=\toks59
+\@dtl@colhead=\toks60
+\dtlcurrentrow=\toks61
+\dtlbeforerow=\toks62
+\dtlafterrow=\toks63
 \@dtl@foreach@level=\count182
 \dtlforeachlevel=\count183
 \c@DTLrowi=\count184
@@ -1015,22 +1016,22 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \dtl@rowi=\count188
 \dtl@rowii=\count189
 \dtl@rowiii=\count190
-\@dtl@curi=\toks67
-\@dtl@previ=\toks68
-\@dtl@nexti=\toks69
-\@dtl@curii=\toks70
-\@dtl@previi=\toks71
-\@dtl@nextii=\toks72
-\@dtl@curiii=\toks73
-\@dtl@previii=\toks74
-\@dtl@nextiii=\toks75
+\@dtl@curi=\toks64
+\@dtl@previ=\toks65
+\@dtl@nexti=\toks66
+\@dtl@curii=\toks67
+\@dtl@previi=\toks68
+\@dtl@nextii=\toks69
+\@dtl@curiii=\toks70
+\@dtl@previii=\toks71
+\@dtl@nextiii=\toks72
 \@dtl@elements=\count191
-\@dtl@list=\toks76
-\@dtl@rowa=\toks77
-\@dtl@rowb=\toks78
-\@dtl@toksA=\toks79
-\@dtl@toksB=\toks80
-\@dtl@toks=\toks81
+\@dtl@list=\toks73
+\@dtl@rowa=\toks74
+\@dtl@rowb=\toks75
+\@dtl@toksA=\toks76
+\@dtl@toksB=\toks77
+\@dtl@toks=\toks78
 \@dtl@write=\write5
 \@dtl@read=\read5
 \dtl@entrycr=\count192
@@ -1089,8 +1090,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 19.
 
 (./pres.aux
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 
 
 LaTeX Warning: Label `fig:1' multiply defined.
@@ -1114,9 +1115,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1147,6 +1148,34 @@ LaTeX Font Info:    ... okay on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count196
+\scratchdimen=\dimen188
+\scratchbox=\box56
+\nofMPsegments=\count197
+\nofMParguments=\count198
+\everyMPshowfont=\toks79
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen189
+\MPnumerator=\count200
+\makeMPintoPDFobject=\count201
+\everyMPtoPDFconversion=\toks80
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box57
 Package hyperref Info: Link coloring OFF on input line 19.
@@ -1157,7 +1186,7 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count196
+\c@section@level=\count202
 )
 LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
@@ -1237,7 +1266,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
  (./pres.nav)
-Overfull \hbox (8.09868pt too wide) in paragraph at lines 19--19
+Overfull \hbox (74.52655pt too wide) in paragraph at lines 19--19
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
@@ -1251,341 +1280,421 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Overfull \hbox (21.73265pt too wide) in paragraph at lines 19--19
- [][][][][]  
+ [][][][]  
  []
 
-File: img/ullesc.eps Graphic file (type eps)
-<img/ullesc.eps>
-File: img/fmatesc.eps Graphic file (type eps)
- <img/fmatesc.eps>
+Package epstopdf Info: Source file: <img/ullesc.eps>
+(epstopdf)                    date: 2013-03-07 10:14:43
+(epstopdf)                    size: 468190 bytes
+(epstopdf)             Output file: <img/ullesc-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-14 20:36:26
+(epstopdf)                    size: 23400 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/ullesc-eps-converted-t
+o.pdf img/ullesc.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+<img/ullesc-eps-converted-to.pdf, id=36, 293.095pt x 302.12875pt>
+File: img/ullesc-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/ullesc-eps-converted-to.pdf>
+Package pdftex.def Info: img/ullesc-eps-converted-to.pdf used on input line 32.
+
+(pdftex.def)             Requested size: 51.3422pt x 52.92403pt.
+Package epstopdf Info: Source file: <img/fmatesc.eps>
+(epstopdf)                    date: 2013-03-07 10:14:43
+(epstopdf)                    size: 148097 bytes
+(epstopdf)             Output file: <img/fmatesc-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-14 20:36:26
+(epstopdf)                    size: 13465 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/fmatesc-eps-converted-
+to.pdf img/fmatesc.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/fmatesc-eps-converted-to.pdf, id=37, 150.5625pt x 156.585pt>
+File: img/fmatesc-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/fmatesc-eps-converted-to.pdf>
+Package pdftex.def Info: img/fmatesc-eps-converted-to.pdf used on input line 32
+.
+(pdftex.def)             Requested size: 54.7685pt x 56.95831pt.
+
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 32.
 
 
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [1
 
-] (./pres.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/ullesc-eps-converted
+-to.pdf> <./img/fmatesc-eps-converted-to.pdf>] (./pres.toc
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [2
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [3
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [4
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [5
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [6
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [7
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [8
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [9
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [10
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [11
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [12
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [13
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [14
 
 ] (./table/tabla.tex
-\dtldb@table1=\toks82
-\dtlkeys@table1=\toks83
-\dtlrows@table1=\count197
-\dtlcols@table1=\count198
+\dtldb@table1=\toks81
+\dtlkeys@table1=\toks82
+\dtlrows@table1=\count203
+\dtlcols@table1=\count204
 )
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [15
 
 ]
-File: img/Plot_nVSerror.eps Graphic file (type eps)
- <img/Plot_nVSerror.eps>
-Overfull \vbox (5.01448pt too high) detected at line 117
+Package epstopdf Info: Source file: <img/Plot_nVSerror.eps>
+(epstopdf)                    date: 2013-05-16 23:02:36
+(epstopdf)                    size: 22088 bytes
+(epstopdf)             Output file: <img/Plot_nVSerror-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-16 23:06:11
+(epstopdf)                    size: 15373 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Plot_nVSerror-eps-conv
+erted-to.pdf img/Plot_nVSerror.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+ <img/Plot_nVSerror-eps-converted-to.pdf, id=485, 578.16pt x 433.62pt>
+File: img/Plot_nVSerror-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/Plot_nVSerror-eps-converted-to.pdf>
+Package pdftex.def Info: img/Plot_nVSerror-eps-converted-to.pdf used on input l
+ine 117.
+(pdftex.def)             Requested size: 256.72147pt x 192.54015pt.
+
+Overfull \vbox (5.014pt too high) detected at line 117
  []
 
 
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [16
 
-]
-File: img/Plot_nVSerrorAndcota.eps Graphic file (type eps)
- <img/Plot_nVSerrorAndcota.eps>
-Overfull \vbox (5.01448pt too high) detected at line 128
+ <./img/Plot_nVSerror-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/Plot_nVSerrorAndcota.eps>
+(epstopdf)                    date: 2013-05-16 23:02:36
+(epstopdf)                    size: 24264 bytes
+(epstopdf)             Output file: <img/Plot_nVSerrorAndcota-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2013-05-16 23:06:12
+(epstopdf)                    size: 16125 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Plot_nVSerrorAndcota-e
+ps-converted-to.pdf img/Plot_nVSerrorAndcota.eps>
+(epstopdf)             \includegraphics on input line 128.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/Plot_nVSerrorAndcota-eps-converted-to.pdf, id=544, 578.16pt x 433.62pt>
+File: img/Plot_nVSerrorAndcota-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/Plot_nVSerrorAndcota-eps-converted-to.pdf>
+Package pdftex.def Info: img/Plot_nVSerrorAndcota-eps-converted-to.pdf used on 
+input line 128.
+(pdftex.def)             Requested size: 256.72147pt x 192.54015pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:1}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.128 \end{frame}
+                 
+Overfull \vbox (5.014pt too high) detected at line 128
  []
 
 
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [17
 
-]
-File: img/Plot_nVStime.eps Graphic file (type eps)
- <img/Plot_nVStime.eps>
-Overfull \vbox (5.01448pt too high) detected at line 139
+ <./img/Plot_nVSerrorAndcota-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/Plot_nVStime.eps>
+(epstopdf)                    date: 2013-05-16 23:02:36
+(epstopdf)                    size: 22422 bytes
+(epstopdf)             Output file: <img/Plot_nVStime-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-16 23:06:12
+(epstopdf)                    size: 15281 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Plot_nVStime-eps-conve
+rted-to.pdf img/Plot_nVStime.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/Plot_nVStime-eps-converted-to.pdf, id=602, 578.16pt x 433.62pt>
+File: img/Plot_nVStime-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/Plot_nVStime-eps-converted-to.pdf>
+Package pdftex.def Info: img/Plot_nVStime-eps-converted-to.pdf used on input li
+ne 139.
+(pdftex.def)             Requested size: 256.72147pt x 192.54015pt.
+
+Overfull \vbox (5.014pt too high) detected at line 139
  []
 
 
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [18
 
-]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+ <./img/Plot_nVStime-eps-converted-to.pdf>]
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [19
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [20
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [21
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [22
 
 ]
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [23
 
 ]
-File: beamericonarticle.eps Graphic file (type eps)
- <beamericonarticle.eps>
-File: beamericonbook.eps Graphic file (type eps)
- <beamericonbook.eps>
-File: beamericonbook.eps Graphic file (type eps)
- <beamericonbook.eps>
-File: beamericonbook.eps Graphic file (type eps)
-
-<beamericonbook.eps>
-Overfull \hbox (8.09868pt too wide) has occurred while \output is active
+Overfull \hbox (74.52655pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
 Overfull \hbox (21.73265pt too wide) has occurred while \output is active
- [][][][][]  
+ [][][][]  
  []
 
 [24
 
-]
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonbook.pdf>]
 \tf@nav=\write7
 \openout7 = `pres.nav'.
 
@@ -1597,14 +1706,15 @@ Overfull \hbox (21.73265pt too wide) has occurred while \output is active
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
- (./pres.aux
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
+
+(./pres.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `pres.out' has not changed.
-(rerunfilecheck)             Checksum: 9E57AC6D0D3F690AA2EA225EE7FBAC20;373.
+(rerunfilecheck)             Checksum: 3FB8F0376434CF6F7E9A07E74AA352C5;373.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1616,12 +1726,33 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 17844 strings out of 493486
- 317972 string characters out of 3143549
- 438685 words of memory out of 3000000
- 20679 multiletter control sequences out of 15000+200000
+ 18416 strings out of 493485
+ 326808 string characters out of 3143526
+ 443401 words of memory out of 3000000
+ 21171 multiletter control sequences out of 15000+200000
  15827 words of font info for 59 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,19n,61p,393b,822s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,18n,61p,393b,827s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+si8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on pres.pdf (24 pages, 268287 bytes).
+PDF statistics:
+ 895 PDF objects out of 1000 (max. 8388607)
+ 741 compressed objects within 8 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on pres.dvi (24 pages, 303552 bytes).
